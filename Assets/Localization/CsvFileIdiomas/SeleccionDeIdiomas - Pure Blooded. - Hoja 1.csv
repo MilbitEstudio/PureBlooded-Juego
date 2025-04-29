@@ -1,0 +1,22 @@
+Key,id,English(en),French(fr),Italian(it),Portuguese(pt),Russian(ru),Spanish(es)
+A 001,1,Pure Blooded,De sang pur,Di sangue puro,De sangue puro,чистокровный,Pura sangre
+A 002,2,Start Game,Démarrer la partie,Avvia partita,Iniciar jogo,Начать игру,Iniciar Partida
+A 003,3,Load Game,Charger la partie,Carica partita,Carregar jogo,Загрузить игру,Cargar Partida
+A 004,4,Options,Options,Opzioni,Opções,Опции,Opciones
+A 005,5,Exit Game,Quitter le jeu,Esci dal gioco,Sair do jogo,Выйти из игры,Salir Del Juego
+A 006,6,Pure Blood,Sang pur,Sangue puro,Sangue puro,чистая кровь,Sangre Pura
+A 007,7,Impure Blood,Sang impur,Sangue impuro,Sangue impuro,нечистая кровь,Sangre Impura
+A 008,8,Pureblood,Pur-sang,Purosangue,Puro-sangue,чистокровный,Pura Sangre
+A 009,9,Sounds,Sons,Suoni,Sons,Звуки,Sonidos
+A 010,10,Voices,Voix,Voci,Vozes,Голоса,Voces
+A 011,11,Music,Musique,Musica,Música,Музыка,Musica
+A 012,12,sounds,sons,suoni,sons,звуки,sonidos
+A 013,13,Effects,Effets,Effetti,Efeitos,Эффекты,Efectos
+A 014,14,Subtitles,Sous-titres,Sottotitoli,Legendas,Субтитры,Subtitulos
+A 015,15,Yes,Oui,Sì,Sim,Да,Si
+A 016,16,No,Non,No,Não,Нет,No
+A 017,17,Language,Langue,Lingua,Idioma,Язык,idioma
+A 018,18,Brightness,Luminosité,Luminosità,Brilho,Яркость,Brillo
+A 019,19,Screen Resolution,Résolution d'écran,Risoluzione dello schermo,Resolução de tela,Разрешение экрана,Resolucion De Pantalla
+A 020,20,Back,Retour,Indietro,Voltar,Назад,Regresar
+A 021,21,Select Language,Sélectionner la langue,Seleziona lingua,Selecionar idioma,Выбрать язык,seleccionar idioma

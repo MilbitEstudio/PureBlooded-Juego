@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tabla1_pt
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt
+  m_SharedData: {fileID: 11400000, guid: aa13da66e524a2f4abeb0b7ef34dfe46, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 15326118723584
+    m_Localized: De sangue puro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326210998272
+    m_Localized: Iniciar jogo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326215192576
+    m_Localized: Carregar jogo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326215192577
+    m_Localized: "Op\xE7\xF5es"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581184
+    m_Localized: Sair do jogo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581185
+    m_Localized: Sangue puro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581186
+    m_Localized: Sangue impuro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581187
+    m_Localized: Puro-sangue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581188
+    m_Localized: Sons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581189
+    m_Localized: Vozes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581190
+    m_Localized: "M\xFAsica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581191
+    m_Localized: sons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581192
+    m_Localized: Efeitos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581193
+    m_Localized: Legendas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581194
+    m_Localized: Sim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581195
+    m_Localized: "N\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581196
+    m_Localized: Idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581197
+    m_Localized: Brilho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581198
+    m_Localized: "Resolu\xE7\xE3o de tela"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15326223581199
+    m_Localized: Voltar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44099287433216
+    m_Localized: Selecionar idioma
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c97674eae5b07498d7b9abbee3e333, type: 3}
+  m_Name: Dialogue2
+  m_EditorClassIdentifier: 
+  _lines:
+  - 'Vendedor: Buenas, que se van a pedir?'
+  - "Ayrton: Hola, yo te pido un\u2026 pancho con papitas y ketchup. Y vos palo?"
+  - "Paloma: Yo te pido un pancho tambi\xE9n, tenes algo picante?"
+  - "Vendedor: Si si tengo salsa picante, un chimichurri de la casa que tambi\xE9n
+    es picante\u2026"
+  - 'Paloma: Ah, entonces solo con la salsa.'
+  - 'Vendedor: Perfecto, ahi se los preparo'
+  - "Ayrton: C\xF3mo hiciste para venir? Pens\xE9 que ni ibas a poder."
+  - "Paloma: Ni me dejaron venir, as\xED que bloquee la puerta y sal\xED por la ventana.
+    Me la voy a tener que bancar cuando vuelva."
+  - 'Ayrton: ...'
+  - 'Paloma: ...'
+  - "Paloma: Uh la puta madre, que paso con la luz? \xBFMe alumbras Ayr?"
+  - 'Ayrton: Si si ahi va'
+  - "Vendedor: Ahi ten\xE9s, serian mil pesos"
+  - "Paloma: Ah\xED estar\xEDa"
+  - 'Vendedor: Perfecto entonces'
+  - 'Artyon: Chau, gracias!!'
+  - 'Paloma: Nos vemos, que tengas una linda noche'
+  - 'Vendedor: Nos vemos, gracias por la compra'
