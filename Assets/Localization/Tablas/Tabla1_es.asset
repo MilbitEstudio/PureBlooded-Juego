@@ -63,7 +63,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 15326223581191
-    m_Localized: sonidos
+    m_Localized: Sonidos
     m_Metadata:
       m_Items: []
   - m_Id: 15326223581192
@@ -83,7 +83,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 15326223581196
-    m_Localized: idioma
+    m_Localized: Idioma
     m_Metadata:
       m_Items: []
   - m_Id: 15326223581197
@@ -99,7 +99,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 44099287433216
-    m_Localized: seleccionar idioma
+    m_Localized: Seleccionar Idioma
     m_Metadata:
       m_Items: []
   references:

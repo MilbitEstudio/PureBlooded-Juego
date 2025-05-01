@@ -19,7 +19,15 @@ public class ControlBrillo : MonoBehaviour
     public void CambiarValorBrilloSlider(float valor)
     {
         sliderValue = valor;
-        PlayerPrefs.SetFloat("brillo",sliderValue);
-        panelBrillo.color = new Color(panelBrillo.color.r,panelBrillo.color.g,panelBrillo.color.b,slider.value);
+
+        if (sliderValue > 0.9)
+        {
+            sliderValue = sliderValue;
+        }
+        else
+        {
+            PlayerPrefs.SetFloat("brillo", sliderValue);
+            panelBrillo.color = new Color(panelBrillo.color.r, panelBrillo.color.g, panelBrillo.color.b, slider.value);
+        }
     }
 }
