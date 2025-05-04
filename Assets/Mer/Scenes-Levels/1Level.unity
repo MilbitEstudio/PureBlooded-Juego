@@ -551,7 +551,6 @@ GameObject:
   - component: {fileID: 795152644}
   - component: {fileID: 795152643}
   - component: {fileID: 795152648}
-  - component: {fileID: 795152650}
   m_Layer: 0
   m_Name: PlayerPrueba
   m_TagString: Untagged
@@ -691,7 +690,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &795152649
 MonoBehaviour:
@@ -707,21 +706,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distancia: 3
   posicionRayo: {fileID: 636681347}
---- !u!114 &795152650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 795152641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b62c14c1567594b4d92a6f7f73709582, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 7
-  sensitivity: 2
 --- !u!114 &795152651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1811,6 +1795,26 @@ PrefabInstance:
     - target: {fileID: 6592502671388590859, guid: 3e276a5d65ef28c4aa5dc73758859518, type: 3}
       propertyPath: m_Name
       value: Blockout-puente
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682870681792569466, guid: 3e276a5d65ef28c4aa5dc73758859518, type: 3}
+      propertyPath: m_Size.x
+      value: 0.020000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682870681792569466, guid: 3e276a5d65ef28c4aa5dc73758859518, type: 3}
+      propertyPath: m_Size.y
+      value: 0.019999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682870681792569466, guid: 3e276a5d65ef28c4aa5dc73758859518, type: 3}
+      propertyPath: m_Size.z
+      value: 0.010009797
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682870681792569466, guid: 3e276a5d65ef28c4aa5dc73758859518, type: 3}
+      propertyPath: m_Center.y
+      value: -8.0857825e-19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682870681792569466, guid: 3e276a5d65ef28c4aa5dc73758859518, type: 3}
+      propertyPath: m_Center.z
+      value: -0.004995099
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
