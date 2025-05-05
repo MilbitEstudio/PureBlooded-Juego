@@ -5,10 +5,7 @@ public class Puerta : MonoBehaviour
 {
     [SerializeField] public LayerMask Puerta_;
     [SerializeField] public Interactuar script;
-    [SerializeField] public Animator anim;
-    [SerializeField] public bool abierta = false;
     [SerializeField] public RawImage InteracionColor;
-    [SerializeField] public AudioSource[] audios;
     [SerializeField] public bool algunAudioActivo = false;
 
     // Update is called once per frame
@@ -21,18 +18,16 @@ public class Puerta : MonoBehaviour
             if (hit.collider != null && ((1 << hit.collider.gameObject.layer) & Puerta_.value) != 0)
             {
                 Debug.Log(hit.collider.gameObject);
-                abierta = !abierta;
-                anim.SetBool("Abrir_Cerrar", abierta);
+                hit.collider.gameObject.GetComponent<Puerta_Bool>().abierta = !hit.collider.gameObject.GetComponent<Puerta_Bool>().abierta;
+                hit.collider.gameObject.GetComponent<Animator>().SetBool("Abrir_Cerrar", hit.collider.gameObject.GetComponent<Puerta_Bool>().abierta);
 
-                if (abierta && anim.speed == 1)
+                if (hit.collider != null && hit.collider.gameObject.GetComponent<Puerta_Bool>().abierta && hit.collider.gameObject.GetComponent<Animator>().speed == 1)
                 {
-                    if (audios[1].isPlaying) audios[1].Stop();
-                    if (!audios[0].isPlaying) audios[0].Play();
+                    if (!hit.collider.gameObject.GetComponents<AudioSource>()[0].isPlaying) hit.collider.gameObject.GetComponents<AudioSource>()[0].Play();
                 }
                 else
                 {
-                    if (audios[0].isPlaying) audios[0].Stop();
-                    if (!audios[1].isPlaying) audios[1].Play();
+                    if (!hit.collider.gameObject.GetComponents<AudioSource>()[1].isPlaying) hit.collider.gameObject.GetComponents<AudioSource>()[1].Play();
                 }
 
             }

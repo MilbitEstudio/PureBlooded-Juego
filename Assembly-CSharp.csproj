@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\Friend\FriendController.cs" />
     <Compile Include="Assets\Scripts\Menu Principal\FN_PLAYERTESTFINAL\FnPlayerTest.cs" />
     <Compile Include="Assets\Scripts\Menu Principal\Options\ActivarDesactivarOpciones.cs" />
+    <Compile Include="Assets\Scripts\Player\Interactuar\Puerta\Puerta_Bool.cs" />
     <Compile Include="Assets\RECUPERADO-PROYECTO ANTIGUO\PSXShaderKit\Demo\SpookyOrbFloat.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IDataService.cs" />
     <Compile Include="Assets\MageC\_Scripts\PlayerMovementManager.cs" />
