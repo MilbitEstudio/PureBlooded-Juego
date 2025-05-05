@@ -37818,8 +37818,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerBody: {fileID: 1175633128}
-  MouseSensitivity: 1
-  Smooth: 2
+  MouseSensitivity: 50
+  Smooth: 15
 --- !u!1001 &944465797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45481,7 +45481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a28c3e9967ba8445abaca9fb2e26a12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InfoText: {fileID: 0}
+  InfoText: {fileID: 1319187523}
   Keycodes:
     Pickup: 101
 --- !u!114 &1175633131
@@ -45551,6 +45551,8 @@ MonoBehaviour:
   MinStamina: 0
   StaminaRegenerationRate: 30
   StaminaDegenerationRate: 15
+  smoothSpeed: 5
+  velocidad: 0.5
   LastPositionY: 0
   FallDistance: 0
   FallDamageLow: 10
@@ -50864,6 +50866,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4719498968730246, guid: a2fe7f9dc74a5ff4696014f411430c80, type: 3}
   m_PrefabInstance: {fileID: 1319136021}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1319187523 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114325154212251742, guid: 619e2a53d00fa434ebdd20862f1aec51, type: 3}
+  m_PrefabInstance: {fileID: 1411200028}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1319211412
 PrefabInstance:
   m_ObjectHideFlags: 0
