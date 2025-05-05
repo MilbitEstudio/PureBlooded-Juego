@@ -45,6 +45,10 @@ public class LevantarObjetos : MonoBehaviour
         else
         {
             Agarrar = false;
+            if (hit.collider != null && hit.collider.GetComponent<Rigidbody>())
+            {
+                hit.collider.gameObject.GetComponent<Rigidbody>().linearVelocity = new Vector3(0, hit.collider.gameObject.GetComponent<Rigidbody>().linearVelocity.y, 0);
+            }
         }
     }
 

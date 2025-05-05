@@ -15,7 +15,7 @@ C:/Users/PC/Documents/GitHub/PureBlooded-Juego
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-18119
+19009
 -job-worker-count
 1
 -background-job-worker-count
@@ -59,16 +59,16 @@ C:/Users/PC/Documents/GitHub/PureBlooded-Juego
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11148]  Target information:
+Player connection [15268]  Target information:
 
-Player connection [11148]  * "[IP] 192.168.100.29 [Port] 0 [Flags] 2 [Guid] 3870826899 [EditorId] 3870826899 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RQSIU8Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15268]  * "[IP] 192.168.100.29 [Port] 0 [Flags] 2 [Guid] 3692990854 [EditorId] 3692990854 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RQSIU8Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11148]  * "[IP] 192.168.202.1 [Port] 0 [Flags] 2 [Guid] 3870826899 [EditorId] 3870826899 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RQSIU8Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15268]  * "[IP] 192.168.202.1 [Port] 0 [Flags] 2 [Guid] 3692990854 [EditorId] 3692990854 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RQSIU8Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11148]  * "[IP] 192.168.157.1 [Port] 0 [Flags] 2 [Guid] 3870826899 [EditorId] 3870826899 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RQSIU8Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15268]  * "[IP] 192.168.157.1 [Port] 0 [Flags] 2 [Guid] 3692990854 [EditorId] 3692990854 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RQSIU8Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11148] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11148] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15268] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15268] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 1
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 100.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 28.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.32f1 (b2e806cf271c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Resources/UnitySubsystems
@@ -96,43 +96,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014036 seconds.
-- Loaded All Assemblies, in  1.983 seconds
+Registered in 0.061213 seconds.
+- Loaded All Assemblies, in  1.946 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.697 seconds
-Domain Reload Profiling: 2672ms
-	BeginReloadAssembly (946ms)
+- Finished resetting the current domain, in  0.535 seconds
+Domain Reload Profiling: 2458ms
+	BeginReloadAssembly (313ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (242ms)
-	RebuildNativeTypeToScriptingClass (66ms)
-	initialDomainReloadingComplete (193ms)
-	LoadAllAssembliesAndSetupDomain (528ms)
-		LoadAssemblies (911ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (146ms)
+	RebuildNativeTypeToScriptingClass (95ms)
+	initialDomainReloadingComplete (464ms)
+	LoadAllAssembliesAndSetupDomain (904ms)
+		LoadAssemblies (302ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (523ms)
-			TypeCache.Refresh (521ms)
-				TypeCache.ScanAssembly (495ms)
+		AnalyzeDomain (898ms)
+			TypeCache.Refresh (896ms)
+				TypeCache.ScanAssembly (872ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (698ms)
+	FinalizeReload (536ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (614ms)
+		SetupLoadedEditorAssemblies (454ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
+			InitializePlatformSupportModulesInManaged (40ms)
 			SetLoadedEditorAssemblies (7ms)
 			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (360ms)
-			ProcessInitializeOnLoadMethodAttributes (122ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -142,1002 +142,786 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.644 seconds
+- Loaded All Assemblies, in  7.784 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 15.62 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Pure blooded 1 - juego
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.683 seconds
-Domain Reload Profiling: 5306ms
-	BeginReloadAssembly (331ms)
+- Finished resetting the current domain, in  6.608 seconds
+Domain Reload Profiling: 14289ms
+	BeginReloadAssembly (941ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (20ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (2115ms)
-		LoadAssemblies (1769ms)
+		CreateAndSetChildDomain (192ms)
+	RebuildCommonClasses (313ms)
+	RebuildNativeTypeToScriptingClass (100ms)
+	initialDomainReloadingComplete (441ms)
+	LoadAllAssembliesAndSetupDomain (5885ms)
+		LoadAssemblies (3727ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (562ms)
-			TypeCache.Refresh (386ms)
-				TypeCache.ScanAssembly (347ms)
-			BuildScriptInfoCaches (151ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (2684ms)
+		AnalyzeDomain (2710ms)
+			TypeCache.Refresh (1916ms)
+				TypeCache.ScanAssembly (1746ms)
+			BuildScriptInfoCaches (664ms)
+			ResolveRequiredComponents (113ms)
+	FinalizeReload (6609ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1764ms)
+		SetupLoadedEditorAssemblies (5325ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (236ms)
-			ProcessInitializeOnLoadAttributes (1030ms)
-			ProcessInitializeOnLoadMethodAttributes (472ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (39ms)
+			BeforeProcessingInitializeOnLoad (1787ms)
+			ProcessInitializeOnLoadAttributes (3260ms)
+			ProcessInitializeOnLoadMethodAttributes (165ms)
+			AfterProcessingInitializeOnLoad (53ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 19.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 277 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7502 unused Assets / (4.6 MB). Loaded Objects now: 8257.
-Memory consumption went from 182.6 MB to 178.0 MB.
-Total: 14.753300 ms (FindLiveObjects: 1.180500 ms CreateObjectMapping: 1.708800 ms MarkObjects: 7.630000 ms  DeleteObjects: 4.232100 ms)
+Unloading 7502 unused Assets / (2.6 MB). Loaded Objects now: 8257.
+Memory consumption went from 182.5 MB to 179.9 MB.
+Total: 65.953400 ms (FindLiveObjects: 3.733500 ms CreateObjectMapping: 8.359800 ms MarkObjects: 40.585800 ms  DeleteObjects: 13.221100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 528338.177136 seconds.
-  path: Assets/Scenes/Menu/src/img/Relleno_Slider.png
-  artifactKey: Guid(bb1bab6a9a31eae4f8cab6bc37f95dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu/src/img/Relleno_Slider.png using Guid(bb1bab6a9a31eae4f8cab6bc37f95dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dad909a2a2f53c9f58c51a51909374e0') in 0.3168674 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 533110.146473 seconds.
+  path: Assets/Scripts/Player/Interactuar/Puerta/CerrarPuerta.wav
+  artifactKey: Guid(c1b2662d9d6d8054aadb88861b25003c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Interactuar/Puerta/CerrarPuerta.wav using Guid(c1b2662d9d6d8054aadb88861b25003c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71751b12dab0f8fc270742ae1d09809f') in 0.6465854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Scenes/Menu/src/img/Fondo_Slider.png
-  artifactKey: Guid(726eb184661f8164e900f9a11f2d206b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu/src/img/Fondo_Slider.png using Guid(726eb184661f8164e900f9a11f2d206b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fd23f281d586d6f561d587d55a53baa') in 0.05784 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprites/BotonPausa.png
-  artifactKey: Guid(63e9f6148e4dc5442be87056e2985c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BotonPausa.png using Guid(63e9f6148e4dc5442be87056e2985c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cc0b117b548da12d53bb8194be1ac52') in 0.0520528 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000715 seconds.
+  path: Assets/Scripts/Player/Interactuar/Puerta/AbrirPuerta.wav
+  artifactKey: Guid(7672e847033d460428d7fa03bc1e3123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Interactuar/Puerta/AbrirPuerta.wav using Guid(7672e847033d460428d7fa03bc1e3123) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38fc553dfa21c4e03569942a20cd6aeb') in 0.046022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.377 seconds
+- Loaded All Assemblies, in  2.003 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.895 seconds
-Domain Reload Profiling: 4256ms
-	BeginReloadAssembly (507ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (91ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (1674ms)
-		LoadAssemblies (1487ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (480ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (433ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1896ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1303ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (304ms)
-			ProcessInitializeOnLoadAttributes (842ms)
-			ProcessInitializeOnLoadMethodAttributes (127ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (32ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8286.
-Memory consumption went from 154.6 MB to 152.5 MB.
-Total: 15.030500 ms (FindLiveObjects: 1.043700 ms CreateObjectMapping: 1.577900 ms MarkObjects: 9.593200 ms  DeleteObjects: 2.814200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.916 seconds
-Script 'Grid' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.084 seconds
-Domain Reload Profiling: 3983ms
-	BeginReloadAssembly (455ms)
+- Finished resetting the current domain, in  1.865 seconds
+Domain Reload Profiling: 3849ms
+	BeginReloadAssembly (472ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (87ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (100ms)
-	LoadAllAssembliesAndSetupDomain (1244ms)
-		LoadAssemblies (999ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1342ms)
+		LoadAssemblies (1091ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (486ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (445ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (2085ms)
+		AnalyzeDomain (523ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (472ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1866ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1643ms)
+		SetupLoadedEditorAssemblies (1207ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (520ms)
-			ProcessInitializeOnLoadAttributes (987ms)
-			ProcessInitializeOnLoadMethodAttributes (106ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (287ms)
+			ProcessInitializeOnLoadAttributes (745ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
 			AfterProcessingInitializeOnLoad (20ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (30ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (4.3 MB). Loaded Objects now: 8292.
-Memory consumption went from 153.0 MB to 148.7 MB.
-Total: 15.009600 ms (FindLiveObjects: 1.074600 ms CreateObjectMapping: 1.885100 ms MarkObjects: 7.983800 ms  DeleteObjects: 4.064600 ms)
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (4.5 MB). Loaded Objects now: 8286.
+Memory consumption went from 154.7 MB to 150.2 MB.
+Total: 15.566800 ms (FindLiveObjects: 1.138700 ms CreateObjectMapping: 1.720800 ms MarkObjects: 7.793400 ms  DeleteObjects: 4.912300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 630.721600 seconds.
-  path: Assets/TextMesh Pro/Fonts/AnalogueOS-Regular SDF.asset
-  artifactKey: Guid(230888317168f254c8bde135bd14f3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/AnalogueOS-Regular SDF.asset using Guid(230888317168f254c8bde135bd14f3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb1714206a8b04d0510e0b6a42ea265f') in 3.5153553 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/NPCS/NPC Chico/brazos 1.png
-  artifactKey: Guid(7bc3c267a615c0946a3e253fbd5e0c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPCS/NPC Chico/brazos 1.png using Guid(7bc3c267a615c0946a3e253fbd5e0c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de570c6d8afbfc4c7bb7d1965f787f37') in 0.03204 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/LowpolyStreetPack/Meshes/Textures/atlas.tga
-  artifactKey: Guid(a56b08bcd0efc1142ac4b8a9ae1284e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/LowpolyStreetPack/Meshes/Textures/atlas.tga using Guid(a56b08bcd0efc1142ac4b8a9ae1284e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd95a3e236db2f1ac78b2d6246bd86ff7') in 0.29948 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/NPCS/NPC Chico/Cara.png
-  artifactKey: Guid(4fcf3d62e6df7ec4392ce9d51c3a756a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPCS/NPC Chico/Cara.png using Guid(4fcf3d62e6df7ec4392ce9d51c3a756a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f953926fc8b40a69bdbd37f354afc474') in 0.0959144 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Amigo/clothes_amigueiro.png
-  artifactKey: Guid(b48ce6842d8c2d84082c5c3360cc8991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Amigo/clothes_amigueiro.png using Guid(b48ce6842d8c2d84082c5c3360cc8991) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8f0fc11bb6ccf5643ea157368996527') in 0.0122179 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.377454 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/VFX/VHS Camera style/dirt text.jpg
-  artifactKey: Guid(dafbd3577db187143a691c0b34f07362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/VFX/VHS Camera style/dirt text.jpg using Guid(dafbd3577db187143a691c0b34f07362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea86b01dfbb7f1267c40aca5d51599da') in 0.018218 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Vendedor/facu frente.jpeg
-  artifactKey: Guid(2e7873971d00b3a40bfccae2445a9b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Vendedor/facu frente.jpeg using Guid(2e7873971d00b3a40bfccae2445a9b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec923773b02c021182796c148d7eb06e') in 0.06629 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/TextMesh Pro/Fonts/Terrorplate.ttf
-  artifactKey: Guid(4e76b6f03ec045e40865471d15266b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/Terrorplate.ttf using Guid(4e76b6f03ec045e40865471d15266b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dddccbc347a7f7e202c58c149e8fb90a') in 0.1038961 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/MageC/_AssetsPropios/Kevin Iglesias/Human Animations/Textures/Human_ColorPalette.png
-  artifactKey: Guid(8fd67c37b3001b64aa0e5013110fc5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/Kevin Iglesias/Human Animations/Textures/Human_ColorPalette.png using Guid(8fd67c37b3001b64aa0e5013110fc5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b537027f72e4feb889e2c3fd5316a74') in 0.0119347 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_05.png
-  artifactKey: Guid(df7c0e6cf8f64a44ea359c778e386616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_05.png using Guid(df7c0e6cf8f64a44ea359c778e386616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5939eddcbf48ac7e5d2bc446eafeffa') in 0.0767169 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_08.png
-  artifactKey: Guid(ddab983e2c69e254983f35d0ef86f336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_08.png using Guid(ddab983e2c69e254983f35d0ef86f336) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f678528ac8d634f3ac6fe3cfdb674139') in 0.086587 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_01.png
-  artifactKey: Guid(2a09470ada0c47849ad79d26363f8e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_01.png using Guid(2a09470ada0c47849ad79d26363f8e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d260b4ee4d6ef008278e3c42077e201') in 0.071511 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Metallic.tga
-  artifactKey: Guid(9dec2143ea353f54797f8eb01cf46827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Metallic.tga using Guid(9dec2143ea353f54797f8eb01cf46827) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27e44abbdb7222f2253c0c937a0087b1') in 0.0854766 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_06.png
-  artifactKey: Guid(39e6fbca0660715408ee44a3391e9b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_06.png using Guid(39e6fbca0660715408ee44a3391e9b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4606a760f707729f92816532d40711bf') in 0.175984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/LowpolyStreetPack/Meshes/Materials/RoadMarkings.png
-  artifactKey: Guid(b219813b14e45b04796eb4c47aed03e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/LowpolyStreetPack/Meshes/Materials/RoadMarkings.png using Guid(b219813b14e45b04796eb4c47aed03e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baf63eac769636e3184a69dc2254a116') in 0.0767881 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_02.png
-  artifactKey: Guid(6b38ffdcc39b96042a822bb3f490eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_02.png using Guid(6b38ffdcc39b96042a822bb3f490eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e949ca491597f06dc0debb5fb390c31c') in 0.0752701 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/UrbanNightSky/Textures/UrbanNightSky_Back.png
-  artifactKey: Guid(6ef94ae4b0007cd438b483cd250be993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/UrbanNightSky/Textures/UrbanNightSky_Back.png using Guid(6ef94ae4b0007cd438b483cd250be993) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a132f1d88793ef6d76612e7b1ea99be') in 0.0785091 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/UrbanNightSky/Textures/UrbanNightSky_Right.png
-  artifactKey: Guid(a56b67fd5c6c1e74dbce262d25768be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/UrbanNightSky/Textures/UrbanNightSky_Right.png using Guid(a56b67fd5c6c1e74dbce262d25768be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '735b760ff48460c2cfea59a1e0534db1') in 1.6335839 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Vendedor/Pantalon.jpeg
-  artifactKey: Guid(c94fda481a0960c4a88fb1412e5685df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Vendedor/Pantalon.jpeg using Guid(c94fda481a0960c4a88fb1412e5685df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5d9cf67ab9f93faf9cccf85d24bb7ac') in 0.1152479 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_06.png
-  artifactKey: Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_06.png using Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1abaa1c225c4c46a9162c131413588cd') in 0.082029 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/UrbanNightSky/Textures/UrbanNightSky_Front.png
-  artifactKey: Guid(c5d79c30433bff14887533ccbb79aa82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/UrbanNightSky/Textures/UrbanNightSky_Front.png using Guid(c5d79c30433bff14887533ccbb79aa82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45b095797002965baf1a3b914890c49e') in 1.2278503 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/TextMesh Pro/Fonts/Terrorplate SDF.asset
-  artifactKey: Guid(3776653d33a95004787d61f495b9f645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/Terrorplate SDF.asset using Guid(3776653d33a95004787d61f495b9f645) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52c70e9abab48017cbb93a802f076169') in 0.1437247 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_09.png
-  artifactKey: Guid(67844d2820eea35448a8cf014d6cba30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_09.png using Guid(67844d2820eea35448a8cf014d6cba30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b42cdd599f703dcc22b46c3fdc342073') in 0.0732991 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/NPCS/NPC Chico/remera 1.jpg
-  artifactKey: Guid(f57109e22ed3f2f42a32430b1e812c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPCS/NPC Chico/remera 1.jpg using Guid(f57109e22ed3f2f42a32430b1e812c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cd65d36befc7253c1fffa399410c70d') in 0.0291936 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Amigo/hair_texture.png
-  artifactKey: Guid(9dd92ed45e160ed4ab1aaf08a45b59c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Amigo/hair_texture.png using Guid(9dd92ed45e160ed4ab1aaf08a45b59c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b443c02bcd31ccde2e8fd17858313981') in 0.0136149 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/UrbanNightSky/Textures/UrbanNightSky_Bottom.png
-  artifactKey: Guid(cdf48daf83873b8469b42b1af03b7cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/UrbanNightSky/Textures/UrbanNightSky_Bottom.png using Guid(cdf48daf83873b8469b42b1af03b7cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b90f79635f81e5292a6b07daf41993d0') in 0.082017 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/LowpolyStreetPack/Meshes/Textures/LightShape.tga
-  artifactKey: Guid(bc5593ebe2f17c443bc8310e847bb096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/LowpolyStreetPack/Meshes/Textures/LightShape.tga using Guid(bc5593ebe2f17c443bc8310e847bb096) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66c2f193c9fbecf212bcc5a9f0157eb4') in 0.0116697 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff5ad48d097be66239093a503edd4851') in 0.0720769 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_07.png
-  artifactKey: Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_07.png using Guid(7789f4efbb0f45c4780925243375a18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f7afdc883117953d9c710be0f3620df') in 0.026246 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/TextMesh Pro/Fonts/AnalogueOS-Regular.ttf
-  artifactKey: Guid(9b6b7eda833c7a1429512f697ecea440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/AnalogueOS-Regular.ttf using Guid(9b6b7eda833c7a1429512f697ecea440) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98812143b3b4f87ad219cc70d31d3eab') in 0.0200127 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_03.png
-  artifactKey: Guid(86507321c175292409cc422c5e33d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_03.png using Guid(86507321c175292409cc422c5e33d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dee4caea19ca4abcbd25cd66bfb2cd9') in 0.0972866 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1ae2a217af0252d16cffc13e40f0018') in 0.094932 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_04.png
-  artifactKey: Guid(56d0dcfd4f388074b86b2ca24191e027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_04.png using Guid(56d0dcfd4f388074b86b2ca24191e027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aea55e1a374f56168e5b1dcd518d16b3') in 0.0816847 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_04.png
-  artifactKey: Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_04.png using Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '228dce9c50de48c7034d22e54ad5b527') in 0.0441544 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/LowpolyStreetPack/Meshes/Materials/tree_DIF.tga
-  artifactKey: Guid(a3211013dcc9aef42b319ad6c96eda45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/LowpolyStreetPack/Meshes/Materials/tree_DIF.tga using Guid(a3211013dcc9aef42b319ad6c96eda45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c51c06f39d610a1cf30535d67a5a3b1e') in 0.0514853 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/Wire_Alpha_White.tga
-  artifactKey: Guid(584c5a26a45a3394997a0ffbae9e7ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/Wire_Alpha_White.tga using Guid(584c5a26a45a3394997a0ffbae9e7ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b548b12716dff9bfc6cbe6dd85393eb') in 0.0259625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_Glass_01.png
-  artifactKey: Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_Glass_01.png using Guid(1432e62c10501d147a873c128326f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f842e040118e495701d18a478e0ead52') in 0.0316073 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_07.png
-  artifactKey: Guid(ba6d3750577556449812b1bbf8ccd2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_07.png using Guid(ba6d3750577556449812b1bbf8ccd2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cd59593bd6143e724b558a0d737e9b3') in 0.6022849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/UrbanNightSky/Textures/UrbanNightSky_Left.png
-  artifactKey: Guid(18d870738208882428fe2062a93004e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/UrbanNightSky/Textures/UrbanNightSky_Left.png using Guid(18d870738208882428fe2062a93004e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4269fa744bcf6357dec403c4946f4be9') in 0.0868782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/NPCS/NPC Chico/Zapatilla.png
-  artifactKey: Guid(6d3f2992fc595764eb89f303eeb4b7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPCS/NPC Chico/Zapatilla.png using Guid(6d3f2992fc595764eb89f303eeb4b7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceadde2d39a16d99227b283faac1bcac') in 0.0680361 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/TutorialInfo/Icons/URP.png
-  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4be824aa9c0ea521a7703a067c916d4') in 0.0378301 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_08.png
-  artifactKey: Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_08.png using Guid(1d12fa396a3563b41b9ae11b0fb0b986) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afd14b6a76d1d75ca73895e7499502d3') in 0.0246133 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Amigo/skin_amigueiro.png
-  artifactKey: Guid(8cc2b118b8e407c4da9c2dea9788e492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Amigo/skin_amigueiro.png using Guid(8cc2b118b8e407c4da9c2dea9788e492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38e70fe9566c879bd3dd987d2d2b2d78') in 0.0207111 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/LowpolyStreetPack/Meshes/Textures/RoadMarkings.png
-  artifactKey: Guid(38ceac90f23ec7c40a491bf8f9e4a9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/LowpolyStreetPack/Meshes/Textures/RoadMarkings.png using Guid(38ceac90f23ec7c40a491bf8f9e4a9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b1e61511f3739e401181648ec7f7302') in 0.0125828 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81ea0b4efdd0a572d81a8ebd84eb6805') in 0.0265905 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/LowpolyStreetPack/Meshes/Textures/fence_01.png
-  artifactKey: Guid(d2e282c317ad02943852ebb81818f5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/LowpolyStreetPack/Meshes/Textures/fence_01.png using Guid(d2e282c317ad02943852ebb81818f5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fff2acd7d0e3590f7bf20337c9d2275') in 0.0131842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Vendedor/manch2.jpg
-  artifactKey: Guid(f14cfa380c663644ca137911c88e00a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Vendedor/manch2.jpg using Guid(f14cfa380c663644ca137911c88e00a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24693aa00dd2a46c1e996e07fb3ac025') in 0.0119299 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/UrbanNightSky/Textures/UrbanNightSky_Top.png
-  artifactKey: Guid(7ec0d505654da4a45add45159bfe0097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/UrbanNightSky/Textures/UrbanNightSky_Top.png using Guid(7ec0d505654da4a45add45159bfe0097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1242db259faaa30a1b63c3ef916e86d9') in 0.1817799 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/Wire_Alpha.tga
-  artifactKey: Guid(2363feb64a80fad4b96e561d7907a8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/Wire_Alpha.tga using Guid(2363feb64a80fad4b96e561d7907a8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3242380c044c9c1da0bc56c2f0cadbd7') in 0.0628537 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_10.png
-  artifactKey: Guid(52b9d8791ea480146bc8d83c6b17e8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_10.png using Guid(52b9d8791ea480146bc8d83c6b17e8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5946680b06c52dd5fbbf32f48a61eca2') in 0.0728867 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Protagonista/regi cara.jpeg
-  artifactKey: Guid(a3461fc8ca482b6419c0956c452cdce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Protagonista/regi cara.jpeg using Guid(a3461fc8ca482b6419c0956c452cdce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba1d8232b222f2a2f245f3883754d993') in 0.0344859 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_05.png
-  artifactKey: Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MageC/_AssetsPropios/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_05.png using Guid(8634f8cf5ba74134c972fb2d36355077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e561dd528d07b6e32db6ba072cba308f') in 0.0368229 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Protagonista/rregi.jpeg
-  artifactKey: Guid(be4911111e513994aa94459ca9d618cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RECUPERADO-PROYECTO ANTIGUO/Textures/Protagonista/rregi.jpeg using Guid(be4911111e513994aa94459ca9d618cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7143b101e8332b6a3fe9f8038e5cabb') in 0.0633595 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  5.951 seconds
+- Loaded All Assemblies, in  1.864 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 9.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.768 seconds
-Domain Reload Profiling: 9708ms
-	BeginReloadAssembly (2271ms)
+- Finished resetting the current domain, in  2.508 seconds
+Domain Reload Profiling: 4356ms
+	BeginReloadAssembly (440ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (37ms)
+		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (120ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (102ms)
-	LoadAllAssembliesAndSetupDomain (3464ms)
-		LoadAssemblies (4589ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (109ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (1211ms)
+		LoadAssemblies (992ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (885ms)
-			TypeCache.Refresh (22ms)
+		AnalyzeDomain (455ms)
+			TypeCache.Refresh (12ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (815ms)
-			ResolveRequiredComponents (42ms)
-	FinalizeReload (3769ms)
+			BuildScriptInfoCaches (412ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2509ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3047ms)
+		SetupLoadedEditorAssemblies (2074ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (749ms)
-			ProcessInitializeOnLoadAttributes (2092ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
-			AfterProcessingInitializeOnLoad (33ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (644ms)
+			ProcessInitializeOnLoadAttributes (1228ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (23ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (60ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8364.
-Memory consumption went from 159.0 MB to 156.9 MB.
-Total: 32.058000 ms (FindLiveObjects: 7.588100 ms CreateObjectMapping: 1.774100 ms MarkObjects: 19.351100 ms  DeleteObjects: 3.343300 ms)
+Unloading 7500 unused Assets / (4.4 MB). Loaded Objects now: 8292.
+Memory consumption went from 153.1 MB to 148.7 MB.
+Total: 15.463900 ms (FindLiveObjects: 1.108800 ms CreateObjectMapping: 1.705500 ms MarkObjects: 8.240900 ms  DeleteObjects: 4.407100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.017 seconds
+- Loaded All Assemblies, in  1.969 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 4.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.009 seconds
-Domain Reload Profiling: 4009ms
-	BeginReloadAssembly (389ms)
+- Finished resetting the current domain, in  1.988 seconds
+Domain Reload Profiling: 3926ms
+	BeginReloadAssembly (411ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (80ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (1436ms)
-		LoadAssemblies (1075ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (1353ms)
+		LoadAssemblies (1073ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (577ms)
-			TypeCache.Refresh (16ms)
+		AnalyzeDomain (505ms)
+			TypeCache.Refresh (15ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (534ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (2009ms)
+			BuildScriptInfoCaches (439ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (1989ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1449ms)
+		SetupLoadedEditorAssemblies (1468ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (513ms)
-			ProcessInitializeOnLoadAttributes (751ms)
-			ProcessInitializeOnLoadMethodAttributes (154ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (418ms)
+			ProcessInitializeOnLoadAttributes (853ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
 			AfterProcessingInitializeOnLoad (22ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (52ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8370.
-Memory consumption went from 158.8 MB to 156.7 MB.
-Total: 14.584300 ms (FindLiveObjects: 1.080900 ms CreateObjectMapping: 2.100300 ms MarkObjects: 8.518200 ms  DeleteObjects: 2.883200 ms)
+Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8298.
+Memory consumption went from 153.1 MB to 151.0 MB.
+Total: 16.961600 ms (FindLiveObjects: 1.129700 ms CreateObjectMapping: 1.766100 ms MarkObjects: 9.512400 ms  DeleteObjects: 4.551600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.894 seconds
+- Loaded All Assemblies, in  1.915 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 9.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.201 seconds
-Domain Reload Profiling: 5080ms
-	BeginReloadAssembly (412ms)
+- Finished resetting the current domain, in  3.089 seconds
+Domain Reload Profiling: 4990ms
+	BeginReloadAssembly (440ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (88ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (1302ms)
-		LoadAssemblies (977ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (1272ms)
+		LoadAssemblies (1030ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (545ms)
-			TypeCache.Refresh (14ms)
+		AnalyzeDomain (487ms)
+			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (490ms)
-			ResolveRequiredComponents (37ms)
-	FinalizeReload (3202ms)
+			BuildScriptInfoCaches (443ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (3090ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2706ms)
+		SetupLoadedEditorAssemblies (2517ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (828ms)
-			ProcessInitializeOnLoadAttributes (1536ms)
-			ProcessInitializeOnLoadMethodAttributes (281ms)
-			AfterProcessingInitializeOnLoad (52ms)
-			EditorAssembliesLoaded (0ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (658ms)
+			ProcessInitializeOnLoadAttributes (1520ms)
+			ProcessInitializeOnLoadMethodAttributes (277ms)
+			AfterProcessingInitializeOnLoad (51ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (94ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (4.8 MB). Loaded Objects now: 8376.
-Memory consumption went from 158.9 MB to 154.0 MB.
-Total: 37.275600 ms (FindLiveObjects: 3.880400 ms CreateObjectMapping: 7.029000 ms MarkObjects: 16.229400 ms  DeleteObjects: 10.135400 ms)
+Unloading 7500 unused Assets / (4.7 MB). Loaded Objects now: 8304.
+Memory consumption went from 153.1 MB to 148.4 MB.
+Total: 25.276800 ms (FindLiveObjects: 1.094800 ms CreateObjectMapping: 1.738400 ms MarkObjects: 18.308600 ms  DeleteObjects: 4.133400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.853 seconds
+- Loaded All Assemblies, in  3.681 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.52 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.854 seconds
-Domain Reload Profiling: 4642ms
-	BeginReloadAssembly (427ms)
+- Finished resetting the current domain, in  2.193 seconds
+Domain Reload Profiling: 5859ms
+	BeginReloadAssembly (439ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (2031ms)
+	LoadAllAssembliesAndSetupDomain (1090ms)
+		LoadAssemblies (884ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (436ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (376ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (2193ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1814ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (274ms)
+			ProcessInitializeOnLoadAttributes (1310ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (42ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (55ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (4.7 MB). Loaded Objects now: 8310.
+Memory consumption went from 153.1 MB to 148.4 MB.
+Total: 17.109700 ms (FindLiveObjects: 1.099500 ms CreateObjectMapping: 1.975500 ms MarkObjects: 9.162700 ms  DeleteObjects: 4.870400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  5.594 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 7.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.737 seconds
+Domain Reload Profiling: 11324ms
+	BeginReloadAssembly (452ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (4964ms)
+		LoadAssemblies (2985ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2217ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (2140ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (5738ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4888ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (1907ms)
+			ProcessInitializeOnLoadAttributes (2550ms)
+			ProcessInitializeOnLoadMethodAttributes (276ms)
+			AfterProcessingInitializeOnLoad (131ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (96ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (4.5 MB). Loaded Objects now: 8316.
+Memory consumption went from 153.1 MB to 148.6 MB.
+Total: 16.902400 ms (FindLiveObjects: 1.320200 ms CreateObjectMapping: 2.355500 ms MarkObjects: 8.877700 ms  DeleteObjects: 4.347100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.968 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.52 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.692 seconds
+Domain Reload Profiling: 3643ms
+	BeginReloadAssembly (422ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (87ms)
-	RebuildCommonClasses (69ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (1198ms)
-		LoadAssemblies (945ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (1319ms)
+		LoadAssemblies (1049ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (475ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (425ms)
-			ResolveRequiredComponents (35ms)
-	FinalizeReload (2856ms)
+		AnalyzeDomain (487ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (440ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1693ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2247ms)
+		SetupLoadedEditorAssemblies (1279ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (541ms)
-			ProcessInitializeOnLoadAttributes (1395ms)
-			ProcessInitializeOnLoadMethodAttributes (264ms)
-			AfterProcessingInitializeOnLoad (36ms)
-			EditorAssembliesLoaded (0ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (253ms)
+			ProcessInitializeOnLoadAttributes (872ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (99ms)
+		AwakeInstancesAfterBackupRestoration (62ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 7.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8382.
-Memory consumption went from 158.9 MB to 156.7 MB.
-Total: 23.592600 ms (FindLiveObjects: 3.697700 ms CreateObjectMapping: 2.114300 ms MarkObjects: 11.081800 ms  DeleteObjects: 6.697500 ms)
+Unloading 7500 unused Assets / (8.1 MB). Loaded Objects now: 8322.
+Memory consumption went from 153.1 MB to 145.1 MB.
+Total: 27.866800 ms (FindLiveObjects: 1.320400 ms CreateObjectMapping: 2.045400 ms MarkObjects: 9.817400 ms  DeleteObjects: 14.681600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.908 seconds
+- Loaded All Assemblies, in  1.851 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.36 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.742 seconds
-Domain Reload Profiling: 3633ms
-	BeginReloadAssembly (402ms)
-		ExecutionOrderSort (3ms)
+- Finished resetting the current domain, in  3.002 seconds
+Domain Reload Profiling: 4841ms
+	BeginReloadAssembly (479ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (142ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1204ms)
+		LoadAssemblies (958ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (470ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (431ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3003ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2448ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (680ms)
+			ProcessInitializeOnLoadAttributes (1451ms)
+			ProcessInitializeOnLoadMethodAttributes (263ms)
+			AfterProcessingInitializeOnLoad (43ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (109ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (4.6 MB). Loaded Objects now: 8328.
+Memory consumption went from 153.1 MB to 148.6 MB.
+Total: 25.633900 ms (FindLiveObjects: 1.125700 ms CreateObjectMapping: 1.877100 ms MarkObjects: 18.439700 ms  DeleteObjects: 4.189500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.900 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.52 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.035 seconds
+Domain Reload Profiling: 3916ms
+	BeginReloadAssembly (396ms)
+		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (85ms)
 	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (1325ms)
-		LoadAssemblies (1036ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1322ms)
+		LoadAssemblies (1022ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (500ms)
-			TypeCache.Refresh (21ms)
+		AnalyzeDomain (509ms)
+			TypeCache.Refresh (20ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (447ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (1743ms)
+			BuildScriptInfoCaches (459ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2035ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1340ms)
+		SetupLoadedEditorAssemblies (1477ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (325ms)
-			ProcessInitializeOnLoadAttributes (808ms)
-			ProcessInitializeOnLoadMethodAttributes (174ms)
-			AfterProcessingInitializeOnLoad (23ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (421ms)
+			ProcessInitializeOnLoadAttributes (868ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (21ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (58ms)
+		AwakeInstancesAfterBackupRestoration (73ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8388.
-Memory consumption went from 158.9 MB to 156.8 MB.
-Total: 19.101200 ms (FindLiveObjects: 1.905200 ms CreateObjectMapping: 2.116200 ms MarkObjects: 11.099500 ms  DeleteObjects: 3.978500 ms)
+Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8334.
+Memory consumption went from 153.1 MB to 151.0 MB.
+Total: 16.568200 ms (FindLiveObjects: 2.141200 ms CreateObjectMapping: 1.978700 ms MarkObjects: 9.059200 ms  DeleteObjects: 3.387300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.833 seconds
+- Loaded All Assemblies, in  1.861 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.41 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.278 seconds
-Domain Reload Profiling: 4099ms
-	BeginReloadAssembly (427ms)
+- Finished resetting the current domain, in  3.214 seconds
+Domain Reload Profiling: 5063ms
+	BeginReloadAssembly (415ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (99ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (79ms)
-	LoadAllAssembliesAndSetupDomain (1218ms)
-		LoadAssemblies (969ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1255ms)
+		LoadAssemblies (991ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (477ms)
+		AnalyzeDomain (488ms)
 			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (436ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (2282ms)
+			BuildScriptInfoCaches (451ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (3215ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1809ms)
+		SetupLoadedEditorAssemblies (2647ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (618ms)
-			ProcessInitializeOnLoadAttributes (1015ms)
-			ProcessInitializeOnLoadMethodAttributes (140ms)
-			AfterProcessingInitializeOnLoad (27ms)
-			EditorAssembliesLoaded (1ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (797ms)
+			ProcessInitializeOnLoadAttributes (1527ms)
+			ProcessInitializeOnLoadMethodAttributes (256ms)
+			AfterProcessingInitializeOnLoad (55ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (75ms)
+		AwakeInstancesAfterBackupRestoration (131ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (4.3 MB). Loaded Objects now: 8394.
-Memory consumption went from 158.9 MB to 154.5 MB.
-Total: 15.038900 ms (FindLiveObjects: 1.130400 ms CreateObjectMapping: 1.821800 ms MarkObjects: 7.826900 ms  DeleteObjects: 4.258000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Script 'Grid' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7492 unused Assets / (5.9 MB). Loaded Objects now: 8394.
-Memory consumption went from 159.0 MB to 153.1 MB.
-Total: 28.678800 ms (FindLiveObjects: 2.482700 ms CreateObjectMapping: 2.042800 ms MarkObjects: 10.864100 ms  DeleteObjects: 13.287600 ms)
+Unloading 7500 unused Assets / (3.7 MB). Loaded Objects now: 8340.
+Memory consumption went from 153.1 MB to 149.5 MB.
+Total: 33.704200 ms (FindLiveObjects: 1.818000 ms CreateObjectMapping: 7.089400 ms MarkObjects: 9.902600 ms  DeleteObjects: 14.892500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.855 seconds
+- Loaded All Assemblies, in  2.304 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 11.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.761 seconds
-Domain Reload Profiling: 3611ms
-	BeginReloadAssembly (409ms)
+- Finished resetting the current domain, in  4.187 seconds
+Domain Reload Profiling: 6489ms
+	BeginReloadAssembly (488ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (74ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (1285ms)
-		LoadAssemblies (1019ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (1593ms)
+		LoadAssemblies (1207ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (477ms)
-			TypeCache.Refresh (21ms)
-				TypeCache.ScanAssembly (3ms)
-			BuildScriptInfoCaches (413ms)
-			ResolveRequiredComponents (37ms)
-	FinalizeReload (1761ms)
+		AnalyzeDomain (645ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (591ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (4191ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1296ms)
+		SetupLoadedEditorAssemblies (3214ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (324ms)
-			ProcessInitializeOnLoadAttributes (847ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
-			AfterProcessingInitializeOnLoad (21ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (690ms)
+			ProcessInitializeOnLoadAttributes (2190ms)
+			ProcessInitializeOnLoadMethodAttributes (271ms)
+			AfterProcessingInitializeOnLoad (43ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (106ms)
+		AwakeInstancesAfterBackupRestoration (148ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8400.
-Memory consumption went from 158.9 MB to 156.8 MB.
-Total: 16.544900 ms (FindLiveObjects: 1.131800 ms CreateObjectMapping: 2.105200 ms MarkObjects: 9.908300 ms  DeleteObjects: 3.398000 ms)
+Unloading 7500 unused Assets / (4.2 MB). Loaded Objects now: 8346.
+Memory consumption went from 153.2 MB to 149.0 MB.
+Total: 39.855500 ms (FindLiveObjects: 1.137200 ms CreateObjectMapping: 15.719900 ms MarkObjects: 18.295500 ms  DeleteObjects: 4.700600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7492 unused Assets / (2.1 MB). Loaded Objects now: 8346.
+Memory consumption went from 153.3 MB to 151.2 MB.
+Total: 25.145200 ms (FindLiveObjects: 2.469800 ms CreateObjectMapping: 2.335100 ms MarkObjects: 15.491700 ms  DeleteObjects: 4.846800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.315 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.422 seconds
+Domain Reload Profiling: 3721ms
+	BeginReloadAssembly (422ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1714ms)
+		LoadAssemblies (1090ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (846ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (799ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1422ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1035ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (315ms)
+			ProcessInitializeOnLoadAttributes (606ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (75ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (4.5 MB). Loaded Objects now: 8352.
+Memory consumption went from 153.1 MB to 148.7 MB.
+Total: 14.779900 ms (FindLiveObjects: 1.118700 ms CreateObjectMapping: 1.713400 ms MarkObjects: 7.905200 ms  DeleteObjects: 4.041100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  5.455 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 9.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.005 seconds
+Domain Reload Profiling: 12454ms
+	BeginReloadAssembly (431ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (1777ms)
+	LoadAllAssembliesAndSetupDomain (3151ms)
+		LoadAssemblies (1931ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1434ms)
+			TypeCache.Refresh (65ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1307ms)
+			ResolveRequiredComponents (52ms)
+	FinalizeReload (7007ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4986ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (42ms)
+			BeforeProcessingInitializeOnLoad (709ms)
+			ProcessInitializeOnLoadAttributes (2676ms)
+			ProcessInitializeOnLoadMethodAttributes (1356ms)
+			AfterProcessingInitializeOnLoad (157ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (178ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (4.1 MB). Loaded Objects now: 8358.
+Memory consumption went from 153.1 MB to 149.0 MB.
+Total: 26.755100 ms (FindLiveObjects: 1.149500 ms CreateObjectMapping: 1.935500 ms MarkObjects: 17.849000 ms  DeleteObjects: 5.819400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -1147,449 +931,624 @@ Symbol file LoadedFromMemory is not a mono symbol file
 - Loaded All Assemblies, in  1.911 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 16.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.35 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.734 seconds
-Domain Reload Profiling: 4630ms
-	BeginReloadAssembly (416ms)
+- Finished resetting the current domain, in  3.000 seconds
+Domain Reload Profiling: 4897ms
+	BeginReloadAssembly (428ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (25ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (85ms)
-	RebuildCommonClasses (77ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (65ms)
 	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (1312ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1306ms)
 		LoadAssemblies (1043ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (487ms)
-			TypeCache.Refresh (11ms)
+			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (443ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (2735ms)
+			BuildScriptInfoCaches (439ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (3001ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2204ms)
+		SetupLoadedEditorAssemblies (2399ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (579ms)
-			ProcessInitializeOnLoadAttributes (1355ms)
-			ProcessInitializeOnLoadMethodAttributes (220ms)
-			AfterProcessingInitializeOnLoad (41ms)
-			EditorAssembliesLoaded (1ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (700ms)
+			ProcessInitializeOnLoadAttributes (1414ms)
+			ProcessInitializeOnLoadMethodAttributes (234ms)
+			AfterProcessingInitializeOnLoad (39ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (114ms)
+		AwakeInstancesAfterBackupRestoration (152ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (3.1 MB). Loaded Objects now: 8406.
-Memory consumption went from 158.9 MB to 155.8 MB.
-Total: 28.577300 ms (FindLiveObjects: 2.333800 ms CreateObjectMapping: 4.181700 ms MarkObjects: 14.752300 ms  DeleteObjects: 7.307700 ms)
+Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8364.
+Memory consumption went from 153.2 MB to 151.0 MB.
+Total: 29.301300 ms (FindLiveObjects: 4.692700 ms CreateObjectMapping: 4.494100 ms MarkObjects: 11.054600 ms  DeleteObjects: 9.058400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.883 seconds
+- Loaded All Assemblies, in  1.836 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.073 seconds
-Domain Reload Profiling: 3940ms
+- Finished resetting the current domain, in  3.006 seconds
+Domain Reload Profiling: 4826ms
+	BeginReloadAssembly (452ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1190ms)
+		LoadAssemblies (979ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (448ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (411ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (3007ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (481ms)
+			ProcessInitializeOnLoadAttributes (1601ms)
+			ProcessInitializeOnLoadMethodAttributes (254ms)
+			AfterProcessingInitializeOnLoad (35ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (183ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (4.5 MB). Loaded Objects now: 8370.
+Memory consumption went from 153.2 MB to 148.6 MB.
+Total: 14.473600 ms (FindLiveObjects: 1.130300 ms CreateObjectMapping: 1.696700 ms MarkObjects: 7.610500 ms  DeleteObjects: 4.034000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7492 unused Assets / (4.6 MB). Loaded Objects now: 8370.
+Memory consumption went from 153.3 MB to 148.8 MB.
+Total: 14.784600 ms (FindLiveObjects: 1.141600 ms CreateObjectMapping: 1.747000 ms MarkObjects: 7.761900 ms  DeleteObjects: 4.132200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.902 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.443 seconds
+Domain Reload Profiling: 3329ms
+	BeginReloadAssembly (401ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1326ms)
+		LoadAssemblies (1014ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (531ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (487ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1443ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1036ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (260ms)
+			ProcessInitializeOnLoadAttributes (655ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (80ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (4.6 MB). Loaded Objects now: 8376.
+Memory consumption went from 153.2 MB to 148.6 MB.
+Total: 15.061600 ms (FindLiveObjects: 1.130000 ms CreateObjectMapping: 1.928400 ms MarkObjects: 7.628800 ms  DeleteObjects: 4.372600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.819 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.148 seconds
+Domain Reload Profiling: 4946ms
 	BeginReloadAssembly (410ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (78ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (1302ms)
-		LoadAssemblies (1005ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1220ms)
+		LoadAssemblies (960ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (511ms)
-			TypeCache.Refresh (25ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (459ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (2074ms)
+		AnalyzeDomain (473ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (437ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (3148ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1618ms)
+		SetupLoadedEditorAssemblies (2490ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (650ms)
-			ProcessInitializeOnLoadAttributes (726ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
-			AfterProcessingInitializeOnLoad (70ms)
-			EditorAssembliesLoaded (6ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (118ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (593ms)
+			ProcessInitializeOnLoadAttributes (1584ms)
+			ProcessInitializeOnLoadMethodAttributes (251ms)
+			AfterProcessingInitializeOnLoad (52ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (1ms)
+		AwakeInstancesAfterBackupRestoration (179ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8412.
-Memory consumption went from 158.9 MB to 156.8 MB.
-Total: 14.910300 ms (FindLiveObjects: 1.348500 ms CreateObjectMapping: 1.760800 ms MarkObjects: 8.836500 ms  DeleteObjects: 2.962700 ms)
+Unloading 7500 unused Assets / (3.7 MB). Loaded Objects now: 8382.
+Memory consumption went from 153.2 MB to 149.5 MB.
+Total: 32.415000 ms (FindLiveObjects: 2.338700 ms CreateObjectMapping: 5.712900 ms MarkObjects: 16.508300 ms  DeleteObjects: 7.853000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.825 seconds
+- Loaded All Assemblies, in  2.069 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 6.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.010 seconds
-Domain Reload Profiling: 4820ms
-	BeginReloadAssembly (428ms)
+- Finished resetting the current domain, in  2.042 seconds
+Domain Reload Profiling: 4094ms
+	BeginReloadAssembly (486ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (89ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (1218ms)
-		LoadAssemblies (977ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (1383ms)
+		LoadAssemblies (1173ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (467ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (426ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (3011ms)
+		AnalyzeDomain (505ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (452ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (2042ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2370ms)
+		SetupLoadedEditorAssemblies (1601ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (554ms)
-			ProcessInitializeOnLoadAttributes (1483ms)
-			ProcessInitializeOnLoadMethodAttributes (272ms)
-			AfterProcessingInitializeOnLoad (38ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (584ms)
+			ProcessInitializeOnLoadAttributes (779ms)
+			ProcessInitializeOnLoadMethodAttributes (193ms)
+			AfterProcessingInitializeOnLoad (24ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (150ms)
+		AwakeInstancesAfterBackupRestoration (106ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (3.6 MB). Loaded Objects now: 8418.
-Memory consumption went from 158.9 MB to 155.3 MB.
-Total: 32.115300 ms (FindLiveObjects: 1.865000 ms CreateObjectMapping: 5.113200 ms MarkObjects: 18.117400 ms  DeleteObjects: 7.018200 ms)
+Unloading 7500 unused Assets / (7.0 MB). Loaded Objects now: 8388.
+Memory consumption went from 153.2 MB to 146.2 MB.
+Total: 22.938800 ms (FindLiveObjects: 1.173200 ms CreateObjectMapping: 2.068300 ms MarkObjects: 9.136900 ms  DeleteObjects: 10.558800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.963 seconds
+- Loaded All Assemblies, in  1.869 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.37 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.032 seconds
-Domain Reload Profiling: 3980ms
-	BeginReloadAssembly (409ms)
+- Finished resetting the current domain, in  3.236 seconds
+Domain Reload Profiling: 5092ms
+	BeginReloadAssembly (474ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (1216ms)
+		LoadAssemblies (1008ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (485ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (441ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (3239ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2553ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (602ms)
+			ProcessInitializeOnLoadAttributes (1568ms)
+			ProcessInitializeOnLoadMethodAttributes (321ms)
+			AfterProcessingInitializeOnLoad (44ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (198ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 12.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8394.
+Memory consumption went from 153.2 MB to 151.1 MB.
+Total: 26.753000 ms (FindLiveObjects: 1.316000 ms CreateObjectMapping: 1.836300 ms MarkObjects: 14.250400 ms  DeleteObjects: 9.348500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7492 unused Assets / (2.1 MB). Loaded Objects now: 8394.
+Memory consumption went from 153.4 MB to 151.2 MB.
+Total: 60.565900 ms (FindLiveObjects: 1.660200 ms CreateObjectMapping: 2.605300 ms MarkObjects: 52.539600 ms  DeleteObjects: 3.758900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.927 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.030 seconds
+Domain Reload Profiling: 3937ms
+	BeginReloadAssembly (401ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1342ms)
+		LoadAssemblies (1052ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (501ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (455ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2031ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1558ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (504ms)
+			ProcessInitializeOnLoadAttributes (796ms)
+			ProcessInitializeOnLoadMethodAttributes (223ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (112ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8400.
+Memory consumption went from 153.2 MB to 151.1 MB.
+Total: 17.384400 ms (FindLiveObjects: 1.176900 ms CreateObjectMapping: 1.838200 ms MarkObjects: 10.544800 ms  DeleteObjects: 3.822800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.818 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.159 seconds
+Domain Reload Profiling: 4961ms
+	BeginReloadAssembly (417ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (89ms)
-	RebuildCommonClasses (78ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (82ms)
 	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (1365ms)
-		LoadAssemblies (1106ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1209ms)
+		LoadAssemblies (961ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (474ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (430ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (2033ms)
+		AnalyzeDomain (475ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (432ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (3160ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1603ms)
+		SetupLoadedEditorAssemblies (2505ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (647ms)
-			ProcessInitializeOnLoadAttributes (761ms)
-			ProcessInitializeOnLoadMethodAttributes (160ms)
-			AfterProcessingInitializeOnLoad (25ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (737ms)
+			ProcessInitializeOnLoadAttributes (1461ms)
+			ProcessInitializeOnLoadMethodAttributes (263ms)
+			AfterProcessingInitializeOnLoad (36ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (84ms)
+		AwakeInstancesAfterBackupRestoration (209ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8424.
-Memory consumption went from 158.9 MB to 156.8 MB.
-Total: 15.491100 ms (FindLiveObjects: 1.128900 ms CreateObjectMapping: 1.689600 ms MarkObjects: 8.894600 ms  DeleteObjects: 3.776400 ms)
+Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8406.
+Memory consumption went from 153.2 MB to 151.1 MB.
+Total: 33.510800 ms (FindLiveObjects: 4.783000 ms CreateObjectMapping: 4.371400 ms MarkObjects: 14.221100 ms  DeleteObjects: 10.133700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.877 seconds
+- Loaded All Assemblies, in  1.989 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.06 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.887 seconds
-Domain Reload Profiling: 4750ms
-	BeginReloadAssembly (436ms)
+- Finished resetting the current domain, in  2.067 seconds
+Domain Reload Profiling: 4036ms
+	BeginReloadAssembly (411ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (87ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (1266ms)
-		LoadAssemblies (1008ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (118ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1336ms)
+		LoadAssemblies (1034ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (498ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (456ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (2887ms)
+		AnalyzeDomain (515ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (468ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2067ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2268ms)
+		SetupLoadedEditorAssemblies (1572ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (545ms)
-			ProcessInitializeOnLoadAttributes (1414ms)
-			ProcessInitializeOnLoadMethodAttributes (256ms)
-			AfterProcessingInitializeOnLoad (37ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (600ms)
+			ProcessInitializeOnLoadAttributes (777ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (23ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (151ms)
+		AwakeInstancesAfterBackupRestoration (136ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 9.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8430.
-Memory consumption went from 158.9 MB to 156.8 MB.
-Total: 26.643900 ms (FindLiveObjects: 3.498100 ms CreateObjectMapping: 5.802500 ms MarkObjects: 10.671400 ms  DeleteObjects: 6.670300 ms)
+Unloading 7500 unused Assets / (4.3 MB). Loaded Objects now: 8412.
+Memory consumption went from 153.2 MB to 148.9 MB.
+Total: 14.229100 ms (FindLiveObjects: 1.168700 ms CreateObjectMapping: 1.733300 ms MarkObjects: 7.497000 ms  DeleteObjects: 3.828200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.809 seconds
+- Loaded All Assemblies, in  1.910 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.87 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.111 seconds
-Domain Reload Profiling: 4904ms
-	BeginReloadAssembly (422ms)
+- Finished resetting the current domain, in  3.157 seconds
+Domain Reload Profiling: 5051ms
+	BeginReloadAssembly (507ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (82ms)
+		CreateAndSetChildDomain (153ms)
 	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (1210ms)
-		LoadAssemblies (994ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1222ms)
+		LoadAssemblies (1004ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (453ms)
-			TypeCache.Refresh (10ms)
+		AnalyzeDomain (456ms)
+			TypeCache.Refresh (11ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (409ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (3111ms)
+			BuildScriptInfoCaches (418ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3158ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (2466ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (721ms)
-			ProcessInitializeOnLoadAttributes (1432ms)
-			ProcessInitializeOnLoadMethodAttributes (256ms)
-			AfterProcessingInitializeOnLoad (46ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (692ms)
+			ProcessInitializeOnLoadAttributes (1451ms)
+			ProcessInitializeOnLoadMethodAttributes (255ms)
+			AfterProcessingInitializeOnLoad (52ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (179ms)
+		AwakeInstancesAfterBackupRestoration (241ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 9.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (3.5 MB). Loaded Objects now: 8436.
-Memory consumption went from 158.9 MB to 155.4 MB.
-Total: 26.727600 ms (FindLiveObjects: 2.304400 ms CreateObjectMapping: 3.715900 ms MarkObjects: 11.347300 ms  DeleteObjects: 9.358000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Script 'Grid' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7492 unused Assets / (2.1 MB). Loaded Objects now: 8436.
-Memory consumption went from 159.1 MB to 157.0 MB.
-Total: 15.354900 ms (FindLiveObjects: 1.162000 ms CreateObjectMapping: 1.889700 ms MarkObjects: 9.215800 ms  DeleteObjects: 3.085900 ms)
+Unloading 7500 unused Assets / (2.4 MB). Loaded Objects now: 8418.
+Memory consumption went from 153.2 MB to 150.8 MB.
+Total: 33.792600 ms (FindLiveObjects: 2.100500 ms CreateObjectMapping: 7.356200 ms MarkObjects: 15.215000 ms  DeleteObjects: 9.118900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.941 seconds
+- Loaded All Assemblies, in  1.928 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 4.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.070 seconds
-Domain Reload Profiling: 3988ms
-	BeginReloadAssembly (397ms)
+- Finished resetting the current domain, in  3.255 seconds
+Domain Reload Profiling: 5170ms
+	BeginReloadAssembly (406ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (1358ms)
-		LoadAssemblies (1014ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1323ms)
+		LoadAssemblies (1019ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (549ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (500ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (2070ms)
+		AnalyzeDomain (526ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (485ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (3257ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1550ms)
+		SetupLoadedEditorAssemblies (2564ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (570ms)
-			ProcessInitializeOnLoadAttributes (761ms)
-			ProcessInitializeOnLoadMethodAttributes (187ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (114ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8442.
-Memory consumption went from 158.9 MB to 156.8 MB.
-Total: 14.417600 ms (FindLiveObjects: 1.099400 ms CreateObjectMapping: 1.562500 ms MarkObjects: 8.897300 ms  DeleteObjects: 2.856600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.801 seconds
-Script 'Grid' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.187 seconds
-Domain Reload Profiling: 4983ms
-	BeginReloadAssembly (416ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (1216ms)
-		LoadAssemblies (970ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (459ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (420ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (3187ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2451ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (641ms)
-			ProcessInitializeOnLoadAttributes (1492ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (590ms)
+			ProcessInitializeOnLoadAttributes (1648ms)
 			ProcessInitializeOnLoadMethodAttributes (264ms)
 			AfterProcessingInitializeOnLoad (45ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (212ms)
+		AwakeInstancesAfterBackupRestoration (236ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (3.2 MB). Loaded Objects now: 8448.
-Memory consumption went from 158.9 MB to 155.7 MB.
-Total: 38.097300 ms (FindLiveObjects: 3.322100 ms CreateObjectMapping: 6.397800 ms MarkObjects: 17.377100 ms  DeleteObjects: 10.998300 ms)
+Unloading 7500 unused Assets / (3.8 MB). Loaded Objects now: 8424.
+Memory consumption went from 153.2 MB to 149.4 MB.
+Total: 26.641200 ms (FindLiveObjects: 1.309300 ms CreateObjectMapping: 2.946300 ms MarkObjects: 16.599800 ms  DeleteObjects: 5.783900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.893 seconds
+- Loaded All Assemblies, in  4.447 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
@@ -1597,585 +1556,786 @@ Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.982 seconds
-Domain Reload Profiling: 3857ms
-	BeginReloadAssembly (422ms)
+- Finished resetting the current domain, in  3.262 seconds
+Domain Reload Profiling: 7694ms
+	BeginReloadAssembly (1990ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (90ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (1279ms)
-		LoadAssemblies (1024ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (2272ms)
+		LoadAssemblies (3484ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (479ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (438ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1983ms)
+		AnalyzeDomain (517ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (470ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (3263ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2055ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (462ms)
+			ProcessInitializeOnLoadAttributes (748ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (632ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (203ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (4.3 MB). Loaded Objects now: 8430.
+Memory consumption went from 153.2 MB to 148.9 MB.
+Total: 15.525100 ms (FindLiveObjects: 1.202500 ms CreateObjectMapping: 1.859900 ms MarkObjects: 8.271300 ms  DeleteObjects: 4.189700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  5.831 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 8.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.500 seconds
+Domain Reload Profiling: 10328ms
+	BeginReloadAssembly (448ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (5184ms)
+		LoadAssemblies (4539ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (869ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (783ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (4503ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3618ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (669ms)
+			ProcessInitializeOnLoadAttributes (2638ms)
+			ProcessInitializeOnLoadMethodAttributes (249ms)
+			AfterProcessingInitializeOnLoad (40ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (228ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (3.3 MB). Loaded Objects now: 8436.
+Memory consumption went from 153.2 MB to 149.9 MB.
+Total: 27.756800 ms (FindLiveObjects: 1.950400 ms CreateObjectMapping: 4.867100 ms MarkObjects: 15.600500 ms  DeleteObjects: 5.336500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.037 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.118 seconds
+Domain Reload Profiling: 4138ms
+	BeginReloadAssembly (427ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1419ms)
+		LoadAssemblies (1126ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (530ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (475ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2119ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (1486ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (497ms)
-			ProcessInitializeOnLoadAttributes (794ms)
-			ProcessInitializeOnLoadMethodAttributes (161ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (153ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8454.
-Memory consumption went from 158.9 MB to 156.8 MB.
-Total: 15.006600 ms (FindLiveObjects: 1.129000 ms CreateObjectMapping: 1.640700 ms MarkObjects: 9.007600 ms  DeleteObjects: 3.227800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.800 seconds
-Script 'Grid' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.358 seconds
-Domain Reload Profiling: 5141ms
-	BeginReloadAssembly (425ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (1192ms)
-		LoadAssemblies (985ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (446ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (409ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (3360ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2495ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (803ms)
-			ProcessInitializeOnLoadAttributes (1398ms)
-			ProcessInitializeOnLoadMethodAttributes (238ms)
-			AfterProcessingInitializeOnLoad (42ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (210ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 10.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (3.4 MB). Loaded Objects now: 8460.
-Memory consumption went from 158.9 MB to 155.6 MB.
-Total: 29.242400 ms (FindLiveObjects: 1.157700 ms CreateObjectMapping: 3.487700 ms MarkObjects: 17.303200 ms  DeleteObjects: 7.292100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.882 seconds
-Script 'Grid' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.804 seconds
-Domain Reload Profiling: 3666ms
-	BeginReloadAssembly (387ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (1313ms)
-		LoadAssemblies (974ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (546ms)
-			TypeCache.Refresh (31ms)
-				TypeCache.ScanAssembly (3ms)
-			BuildScriptInfoCaches (466ms)
-			ResolveRequiredComponents (38ms)
-	FinalizeReload (1805ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1288ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (12ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (286ms)
-			ProcessInitializeOnLoadAttributes (815ms)
-			ProcessInitializeOnLoadMethodAttributes (148ms)
-			AfterProcessingInitializeOnLoad (28ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (110ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8466.
-Memory consumption went from 158.9 MB to 156.8 MB.
-Total: 14.737600 ms (FindLiveObjects: 1.198800 ms CreateObjectMapping: 1.593600 ms MarkObjects: 9.170600 ms  DeleteObjects: 2.773200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.887 seconds
-Script 'Grid' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.880 seconds
-Domain Reload Profiling: 4752ms
-	BeginReloadAssembly (450ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (92ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (1263ms)
-		LoadAssemblies (1015ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (495ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (453ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (2882ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2111ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (19ms)
-			BeforeProcessingInitializeOnLoad (729ms)
-			ProcessInitializeOnLoadAttributes (1053ms)
-			ProcessInitializeOnLoadMethodAttributes (259ms)
-			AfterProcessingInitializeOnLoad (45ms)
-			EditorAssembliesLoaded (3ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (224ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (3.3 MB). Loaded Objects now: 8472.
-Memory consumption went from 158.9 MB to 155.7 MB.
-Total: 39.015000 ms (FindLiveObjects: 2.648500 ms CreateObjectMapping: 7.236100 ms MarkObjects: 11.602900 ms  DeleteObjects: 17.525900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.881 seconds
-Script 'Grid' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.875 seconds
-Domain Reload Profiling: 3742ms
-	BeginReloadAssembly (406ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (85ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (1306ms)
-		LoadAssemblies (991ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (524ms)
-			TypeCache.Refresh (29ms)
-				TypeCache.ScanAssembly (6ms)
-			BuildScriptInfoCaches (463ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1877ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1322ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (397ms)
-			ProcessInitializeOnLoadAttributes (706ms)
-			ProcessInitializeOnLoadMethodAttributes (186ms)
+			BeforeProcessingInitializeOnLoad (449ms)
+			ProcessInitializeOnLoadAttributes (848ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
 			AfterProcessingInitializeOnLoad (22ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (165ms)
+		AwakeInstancesAfterBackupRestoration (155ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8478.
-Memory consumption went from 158.9 MB to 156.8 MB.
-Total: 15.453700 ms (FindLiveObjects: 1.143300 ms CreateObjectMapping: 1.715600 ms MarkObjects: 9.733700 ms  DeleteObjects: 2.859100 ms)
+Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8442.
+Memory consumption went from 153.2 MB to 151.1 MB.
+Total: 15.283200 ms (FindLiveObjects: 1.188900 ms CreateObjectMapping: 1.911500 ms MarkObjects: 9.332700 ms  DeleteObjects: 2.848000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.916 seconds
+- Loaded All Assemblies, in  1.943 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.234 seconds
-Domain Reload Profiling: 5127ms
-	BeginReloadAssembly (411ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (87ms)
-	RebuildCommonClasses (81ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (1303ms)
-		LoadAssemblies (1013ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (512ms)
-			TypeCache.Refresh (35ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (450ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (3234ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2536ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (841ms)
-			ProcessInitializeOnLoadAttributes (1398ms)
-			ProcessInitializeOnLoadMethodAttributes (239ms)
-			AfterProcessingInitializeOnLoad (45ms)
-			EditorAssembliesLoaded (3ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (236ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 10.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (4.2 MB). Loaded Objects now: 8484.
-Memory consumption went from 158.9 MB to 154.7 MB.
-Total: 24.073600 ms (FindLiveObjects: 1.386700 ms CreateObjectMapping: 1.544600 ms MarkObjects: 17.183100 ms  DeleteObjects: 3.957800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.862 seconds
-Script 'Grid' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.52 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.441 seconds
-Domain Reload Profiling: 3282ms
-	BeginReloadAssembly (388ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (80ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (1292ms)
-		LoadAssemblies (963ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (536ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (478ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (1442ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1024ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (253ms)
-			ProcessInitializeOnLoadAttributes (649ms)
-			ProcessInitializeOnLoadMethodAttributes (93ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (106ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (4.4 MB). Loaded Objects now: 8490.
-Memory consumption went from 159.0 MB to 154.6 MB.
-Total: 15.048500 ms (FindLiveObjects: 1.299100 ms CreateObjectMapping: 1.772000 ms MarkObjects: 7.872700 ms  DeleteObjects: 4.103100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.822 seconds
-Script 'Grid' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.459 seconds
-Domain Reload Profiling: 5268ms
-	BeginReloadAssembly (408ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (1236ms)
-		LoadAssemblies (960ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (502ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (454ms)
-			ResolveRequiredComponents (32ms)
-	FinalizeReload (3461ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2722ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (802ms)
-			ProcessInitializeOnLoadAttributes (1574ms)
-			ProcessInitializeOnLoadMethodAttributes (284ms)
-			AfterProcessingInitializeOnLoad (45ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (273ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (4.7 MB). Loaded Objects now: 8496.
-Memory consumption went from 159.0 MB to 154.3 MB.
-Total: 77.353600 ms (FindLiveObjects: 2.938300 ms CreateObjectMapping: 10.330800 ms MarkObjects: 45.738000 ms  DeleteObjects: 18.344900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.957 seconds
-Script 'Grid' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.610 seconds
-Domain Reload Profiling: 3555ms
-	BeginReloadAssembly (402ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (85ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (1381ms)
-		LoadAssemblies (1040ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (557ms)
-			TypeCache.Refresh (42ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (477ms)
-			ResolveRequiredComponents (32ms)
-	FinalizeReload (1611ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1133ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (265ms)
-			ProcessInitializeOnLoadAttributes (738ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (137ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (4.4 MB). Loaded Objects now: 8502.
-Memory consumption went from 159.0 MB to 154.6 MB.
-Total: 15.037800 ms (FindLiveObjects: 1.379600 ms CreateObjectMapping: 1.760700 ms MarkObjects: 7.783300 ms  DeleteObjects: 4.112500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.848 seconds
-Script 'Grid' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.999 seconds
-Domain Reload Profiling: 4833ms
-	BeginReloadAssembly (414ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (90ms)
-	RebuildCommonClasses (79ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (1244ms)
-		LoadAssemblies (1001ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (468ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (416ms)
-			ResolveRequiredComponents (31ms)
-	FinalizeReload (3001ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2352ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (714ms)
-			ProcessInitializeOnLoadAttributes (1328ms)
-			ProcessInitializeOnLoadMethodAttributes (256ms)
-			AfterProcessingInitializeOnLoad (45ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (245ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 28.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.7 MB). Loaded Objects now: 8508.
-Memory consumption went from 159.0 MB to 156.3 MB.
-Total: 25.171700 ms (FindLiveObjects: 1.169100 ms CreateObjectMapping: 1.703900 ms MarkObjects: 15.022100 ms  DeleteObjects: 7.275100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.748 seconds
-Script 'Grid' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.258 seconds
-Domain Reload Profiling: 4991ms
-	BeginReloadAssembly (391ms)
+- Finished resetting the current domain, in  3.074 seconds
+Domain Reload Profiling: 5000ms
+	BeginReloadAssembly (456ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (16ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (80ms)
-	RebuildCommonClasses (82ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (1170ms)
-		LoadAssemblies (911ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (1309ms)
+		LoadAssemblies (1070ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (468ms)
+		AnalyzeDomain (490ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (449ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (3076ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2285ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (518ms)
+			ProcessInitializeOnLoadAttributes (1442ms)
+			ProcessInitializeOnLoadMethodAttributes (254ms)
+			AfterProcessingInitializeOnLoad (46ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (248ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 7.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8448.
+Memory consumption went from 153.2 MB to 151.1 MB.
+Total: 32.572300 ms (FindLiveObjects: 5.673700 ms CreateObjectMapping: 4.546900 ms MarkObjects: 12.296300 ms  DeleteObjects: 10.053200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.993 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 7.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.169 seconds
+Domain Reload Profiling: 4147ms
+	BeginReloadAssembly (440ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (1370ms)
+		LoadAssemblies (1127ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (499ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (452ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2170ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1455ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (409ms)
+			ProcessInitializeOnLoadAttributes (841ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (232ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8454.
+Memory consumption went from 153.2 MB to 151.1 MB.
+Total: 15.665100 ms (FindLiveObjects: 1.219600 ms CreateObjectMapping: 1.950900 ms MarkObjects: 9.208500 ms  DeleteObjects: 3.284100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.076 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.095 seconds
+Domain Reload Profiling: 5159ms
+	BeginReloadAssembly (496ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1397ms)
+		LoadAssemblies (1081ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (560ms)
 			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (502ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (3098ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2317ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (619ms)
+			ProcessInitializeOnLoadAttributes (1400ms)
+			ProcessInitializeOnLoadMethodAttributes (243ms)
+			AfterProcessingInitializeOnLoad (45ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (296ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (6.9 MB). Loaded Objects now: 8460.
+Memory consumption went from 153.2 MB to 146.3 MB.
+Total: 36.966500 ms (FindLiveObjects: 2.351900 ms CreateObjectMapping: 4.727000 ms MarkObjects: 13.357600 ms  DeleteObjects: 16.527700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7492 unused Assets / (2.1 MB). Loaded Objects now: 8460.
+Memory consumption went from 153.4 MB to 151.3 MB.
+Total: 19.657100 ms (FindLiveObjects: 1.514800 ms CreateObjectMapping: 2.442200 ms MarkObjects: 11.612700 ms  DeleteObjects: 4.085500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.237 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.722 seconds
+Domain Reload Profiling: 3941ms
+	BeginReloadAssembly (500ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1548ms)
+		LoadAssemblies (1253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (610ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (558ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1723ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1197ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (346ms)
+			ProcessInitializeOnLoadAttributes (726ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (186ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (4.6 MB). Loaded Objects now: 8466.
+Memory consumption went from 153.2 MB to 148.7 MB.
+Total: 15.637600 ms (FindLiveObjects: 1.288900 ms CreateObjectMapping: 1.867400 ms MarkObjects: 7.693500 ms  DeleteObjects: 4.785800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.987 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.382 seconds
+Domain Reload Profiling: 5357ms
+	BeginReloadAssembly (434ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (117ms)
+	LoadAllAssembliesAndSetupDomain (1317ms)
+		LoadAssemblies (1048ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (508ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (469ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (3386ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2577ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (759ms)
+			ProcessInitializeOnLoadAttributes (1516ms)
+			ProcessInitializeOnLoadMethodAttributes (238ms)
+			AfterProcessingInitializeOnLoad (53ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (305ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (4.6 MB). Loaded Objects now: 8472.
+Memory consumption went from 153.3 MB to 148.6 MB.
+Total: 35.995700 ms (FindLiveObjects: 1.177100 ms CreateObjectMapping: 1.743700 ms MarkObjects: 28.480300 ms  DeleteObjects: 4.592600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7492 unused Assets / (4.1 MB). Loaded Objects now: 8472.
+Memory consumption went from 153.4 MB to 149.3 MB.
+Total: 15.073700 ms (FindLiveObjects: 1.198700 ms CreateObjectMapping: 1.778900 ms MarkObjects: 8.222200 ms  DeleteObjects: 3.872200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.015 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.43 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.382 seconds
+Domain Reload Profiling: 4381ms
+	BeginReloadAssembly (466ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (104ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1364ms)
+		LoadAssemblies (1098ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (499ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (442ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (2383ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1688ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (654ms)
+			ProcessInitializeOnLoadAttributes (793ms)
+			ProcessInitializeOnLoadMethodAttributes (178ms)
+			AfterProcessingInitializeOnLoad (44ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (256ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (4.7 MB). Loaded Objects now: 8478.
+Memory consumption went from 153.3 MB to 148.6 MB.
+Total: 14.518100 ms (FindLiveObjects: 1.175700 ms CreateObjectMapping: 1.758000 ms MarkObjects: 7.418500 ms  DeleteObjects: 4.163900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.725 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.307 seconds
+Domain Reload Profiling: 4017ms
+	BeginReloadAssembly (418ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (1132ms)
+		LoadAssemblies (897ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (464ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (426ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2308ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1600ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (482ms)
+			ProcessInitializeOnLoadAttributes (907ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+			AfterProcessingInitializeOnLoad (37ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (1ms)
+		AwakeInstancesAfterBackupRestoration (343ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (2.7 MB). Loaded Objects now: 8484.
+Memory consumption went from 153.3 MB to 150.6 MB.
+Total: 27.781200 ms (FindLiveObjects: 2.168000 ms CreateObjectMapping: 8.580600 ms MarkObjects: 10.276500 ms  DeleteObjects: 6.753800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7492 unused Assets / (4.6 MB). Loaded Objects now: 8484.
+Memory consumption went from 153.4 MB to 148.9 MB.
+Total: 15.771400 ms (FindLiveObjects: 1.286200 ms CreateObjectMapping: 1.850100 ms MarkObjects: 8.519400 ms  DeleteObjects: 4.113800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.899 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.197 seconds
+Domain Reload Profiling: 4081ms
+	BeginReloadAssembly (385ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (1340ms)
+		LoadAssemblies (1061ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (498ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (445ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (2198ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1649ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (600ms)
+			ProcessInitializeOnLoadAttributes (859ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (175ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8490.
+Memory consumption went from 153.3 MB to 151.2 MB.
+Total: 17.036000 ms (FindLiveObjects: 1.217000 ms CreateObjectMapping: 1.862800 ms MarkObjects: 10.668500 ms  DeleteObjects: 3.285800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.997 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.061 seconds
+Domain Reload Profiling: 5043ms
+	BeginReloadAssembly (443ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1370ms)
+		LoadAssemblies (1060ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (552ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (514ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3062ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2297ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (577ms)
+			ProcessInitializeOnLoadAttributes (1416ms)
+			ProcessInitializeOnLoadMethodAttributes (254ms)
+			AfterProcessingInitializeOnLoad (40ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (308ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8496.
+Memory consumption went from 153.3 MB to 151.2 MB.
+Total: 22.294000 ms (FindLiveObjects: 3.090100 ms CreateObjectMapping: 1.887800 ms MarkObjects: 10.372300 ms  DeleteObjects: 6.941400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.026 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 7.17 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.324 seconds
+Domain Reload Profiling: 4335ms
+	BeginReloadAssembly (474ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1372ms)
+		LoadAssemblies (1153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (487ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (447ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2325ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1540ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (714ms)
+			ProcessInitializeOnLoadAttributes (695ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (203ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7500 unused Assets / (4.3 MB). Loaded Objects now: 8502.
+Memory consumption went from 153.3 MB to 149.0 MB.
+Total: 16.142000 ms (FindLiveObjects: 1.166300 ms CreateObjectMapping: 2.109200 ms MarkObjects: 8.048900 ms  DeleteObjects: 4.815600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.944 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.345 seconds
+Domain Reload Profiling: 5274ms
+	BeginReloadAssembly (491ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1256ms)
+		LoadAssemblies (1083ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (477ms)
+			TypeCache.Refresh (20ms)
 				TypeCache.ScanAssembly (0ms)
 			BuildScriptInfoCaches (430ms)
 			ResolveRequiredComponents (22ms)
-	FinalizeReload (3258ms)
+	FinalizeReload (3348ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2425ms)
+		SetupLoadedEditorAssemblies (2568ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (669ms)
-			ProcessInitializeOnLoadAttributes (1420ms)
-			ProcessInitializeOnLoadMethodAttributes (266ms)
-			AfterProcessingInitializeOnLoad (47ms)
-			EditorAssembliesLoaded (2ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (568ms)
+			ProcessInitializeOnLoadAttributes (1649ms)
+			ProcessInitializeOnLoadMethodAttributes (299ms)
+			AfterProcessingInitializeOnLoad (42ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (344ms)
+		AwakeInstancesAfterBackupRestoration (334ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 9.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8514.
-Memory consumption went from 159.0 MB to 156.9 MB.
-Total: 25.792500 ms (FindLiveObjects: 1.190200 ms CreateObjectMapping: 2.074400 ms MarkObjects: 15.933200 ms  DeleteObjects: 6.592700 ms)
+Unloading 7500 unused Assets / (2.1 MB). Loaded Objects now: 8508.
+Memory consumption went from 153.3 MB to 151.2 MB.
+Total: 27.167300 ms (FindLiveObjects: 2.077100 ms CreateObjectMapping: 2.593700 ms MarkObjects: 15.361400 ms  DeleteObjects: 7.132900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
