@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Puerta : MonoBehaviour
 {
@@ -6,10 +7,12 @@ public class Puerta : MonoBehaviour
     [SerializeField] public Interactuar script;
     [SerializeField] public Animator anim;
     [SerializeField] public bool abierta;
+    [SerializeField] public RawImage InteracionColor;
 
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit = script.DetectarObjeto();
