@@ -106,6 +106,7 @@
     <Compile Include="Assets\Scripts\Items\Nota.cs" />
     <Compile Include="Assets\Scripts\Escena creditos inicio\RoadMovement.cs" />
     <Compile Include="Assets\Scripts\Player\Interactuar\Interactuar.cs" />
+    <Compile Include="Assets\Scripts\Player\Estress\Sistema_Miedo.cs" />
     <Compile Include="Assets\MageC\_Scripts\PlayerAnimationManager.cs" />
     <Compile Include="Assets\Scripts\CanvasINICIOJUEGO\CambiarImagenBoton.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerStats.cs" />

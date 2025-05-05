@@ -721,9 +721,13 @@ MonoBehaviour:
   ObjetoLevantar:
     serializedVersion: 2
     m_Bits: 8
+  Puerta_:
+    serializedVersion: 2
+    m_Bits: 0
   script: {fileID: 795152649}
   objetoTomado: {fileID: 0}
   posObjeto: {fileID: 0}
+  InteracionColor: {fileID: 0}
   Agarrar: 0
 --- !u!114 &795152652
 MonoBehaviour:
@@ -741,8 +745,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   script: {fileID: 795152649}
-  anim: {fileID: 913272249}
-  abierta: 0
+  InteracionColor: {fileID: 0}
+  algunAudioActivo: 0
 --- !u!95 &913272249
 Animator:
   serializedVersion: 7
