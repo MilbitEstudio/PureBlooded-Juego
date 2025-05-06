@@ -37,6 +37,7 @@ public class PlayerMovementManager : MonoBehaviour
     public float WalkSpeed;
     public float RunSpeed = 6f;
     public float Speed;
+    public Vector3 input;
 
     public float SpeedBoostTime;
     public float JumpBoostTime;
@@ -92,7 +93,8 @@ public class PlayerMovementManager : MonoBehaviour
     void Update()
     {
         // Obtener el input horizontal (X,Z) y transformarlo según la orientación
-        Vector3 input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+
         input = transform.TransformDirection(input);
 
         // Determinar si se corre o se camina
