@@ -29,7 +29,7 @@ public class PlayerCameraManager : MonoBehaviour
         mouseY = Input.GetAxis("Mouse Y") * MouseSensitivity * Time.deltaTime;
 
         xClamp -= mouseY;
-        xClamp = Mathf.Clamp(xClamp, -90f, 90f);
+        xClamp = Mathf.Clamp(xClamp, -80f, 90f);
 
         camTargetRot = Quaternion.Euler(xClamp, 0f, 0f);
 

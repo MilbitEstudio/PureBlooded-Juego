@@ -26,6 +26,19 @@ public class Animacion_Player : MonoBehaviour
         }
     }
 
+    public void Correr()
+    {
+        if (controller.Speed == 6)
+        {
+            anim.SetBool("Correr", true);
+        }
+        else
+        {
+            anim.SetBool("Correr", false);
+        }
+    }
+
+
     // Update is called once per frame
     void Update()
     {
@@ -39,5 +52,7 @@ public class Animacion_Player : MonoBehaviour
 
         //Inicia la funcion de caminar agachado.
         Agachado_Caminar();
+        //Inicia la funcion Correr
+        Correr();
     }
 }

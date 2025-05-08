@@ -11,6 +11,7 @@ public class LevantarObjetos : MonoBehaviour
     public Transform posObjeto;
     public RawImage InteracionColor;
     public bool Agarrar = false;
+    private Vector3 rotacionInicial;
 
     void LateUpdate()
     {
@@ -33,6 +34,11 @@ public class LevantarObjetos : MonoBehaviour
                 if (hit.collider != null && ((1 << hit.collider.gameObject.layer) & ObjetoLevantar) != 0)
                 {
                     objetoTomado = hit.collider.gameObject;
+                    //Ajustar eje Z Objeto
+                    Quaternion rotAlineada = Quaternion.FromToRotation(objetoTomado.transform.forward, Vector3.up) * objetoTomado.transform.rotation;
+                    objetoTomado.transform.rotation = rotAlineada;
+                    rotacionInicial = objetoTomado.transform.eulerAngles;
+                    //Termina_Ajuste
                     Agarrar = true;
                 }
             }
@@ -40,7 +46,27 @@ public class LevantarObjetos : MonoBehaviour
             if (Agarrar && objetoTomado != null)
             {
                 objetoTomado.transform.position = script.posicionRayo.position + script.posicionRayo.forward * script.distancia;
+
+                // Limitar rotación
+                Vector3 rotActual = objetoTomado.transform.localEulerAngles;
+
+                objetoTomado.GetComponent<Rigidbody>().linearVelocity = new Vector3(0,0,0);
+
+                float x = rotActual.x > 180 ? rotActual.x - 360 : rotActual.x;
+                float y = rotActual.y > 180 ? rotActual.y - 360 : rotActual.y;
+                float z = rotActual.z > 180 ? rotActual.z - 360 : rotActual.z;
+
+                float xIni = rotacionInicial.x > 180 ? rotacionInicial.x - 360 : rotacionInicial.x;
+                float yIni = rotacionInicial.y > 180 ? rotacionInicial.y - 360 : rotacionInicial.y;
+                float zIni = rotacionInicial.z > 180 ? rotacionInicial.z - 360 : rotacionInicial.z;
+
+                x = Mathf.Clamp(x, xIni - 15f, xIni + 15f);
+                y = Mathf.Clamp(y, yIni - 15f, yIni + 15f);
+                z = Mathf.Clamp(z, zIni - 15f, zIni + 15f);
+
+                objetoTomado.transform.localEulerAngles = new Vector3(x, y, z);
             }
+
         }
         else
         {
