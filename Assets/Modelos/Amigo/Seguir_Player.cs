@@ -9,11 +9,13 @@ public class Seguir_Player : MonoBehaviour
     public float distanciaMaxima = 10f;
     public float distanciaParaAvanzar = 2f;
     public float distanciaAlDestino;
+    public Animator anim;
+    private Quaternion rotAnterior;
 
     public float posicionRelativaLateral = 2f;
     public float posicionRelativaAdelanteAtras = 2f;
 
-    private NavMeshAgent agent;
+    public NavMeshAgent agent;
 
     void Start()
     {
@@ -46,12 +48,33 @@ public class Seguir_Player : MonoBehaviour
             }
         }
 
-        Vector3 direccionHaciaDestino = destinationPoint.position - transform.position;
-        direccionHaciaDestino.y = 0;
-
-        if (direccionHaciaDestino.sqrMagnitude > 0.01f)
+        if (agent.velocity.magnitude > 0.1f && !agent.pathPending && agent.remainingDistance > agent.stoppingDistance)
         {
-            Quaternion rotacionObjetivo = Quaternion.LookRotation(direccionHaciaDestino);
+            anim.SetBool("Camina", true);
+        }
+        else
+        {
+            anim.SetBool("Camina", false);
+        }
+
+        if (agent.velocity.magnitude > 0.1f)
+        {
+            Vector3 direccionMovimiento = agent.velocity.normalized;
+            float angulo = Vector3.Angle(transform.forward, direccionMovimiento);
+
+            if (angulo > 10f)
+            {
+                Quaternion rotacionObjetivo = Quaternion.LookRotation(direccionMovimiento);
+                transform.rotation = Quaternion.Slerp(transform.rotation, rotacionObjetivo, 5f * Time.deltaTime);
+            }
+        }
+
+
+        if (agent.velocity.sqrMagnitude > 0.1f)
+        {
+            Vector3 direccionMovimiento = agent.velocity.normalized;
+            direccionMovimiento.y = 0; // solo en eje Y
+            Quaternion rotacionObjetivo = Quaternion.LookRotation(direccionMovimiento);
             transform.rotation = Quaternion.Slerp(transform.rotation, rotacionObjetivo, 5f * Time.deltaTime);
         }
 

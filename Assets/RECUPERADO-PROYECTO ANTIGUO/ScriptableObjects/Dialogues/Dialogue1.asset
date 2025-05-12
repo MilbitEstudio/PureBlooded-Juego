@@ -22,8 +22,11 @@ MonoBehaviour:
   - 'Ayrton: Che, estas bien? si queres podemos ir a otro lado o- '
   - 'Paloma: No no deja, comamos algo, encima manejo un hambre. '
   - "Ayrton: Bueno\u2026 dale."
-  _audios:
+  _clips:
   - {fileID: 8300000, guid: eb0eee04a36a3704aa9fbab050b411bd, type: 3}
+  - {fileID: 8300000, guid: 115987184060293408668b32957b9a38, type: 3}
   - {fileID: 8300000, guid: 16c9de6d558ed4b4cbbafddc9be18faa, type: 3}
+  - {fileID: 8300000, guid: 3919d51be52c0774687389bf309c14d7, type: 3}
   - {fileID: 8300000, guid: c65c977e3e31b304b850c0dd312dfa52, type: 3}
-  _audioSource: {fileID: 7175178710329497578, guid: 7a1d33a14f33e41438feb0c22121204f, type: 3}
+  - {fileID: 8300000, guid: 537cbad82fd75a7439c56a5b8584e757, type: 3}
+  - {fileID: 8300000, guid: 78ccb53a974c9c84a9bac266ef9c07f1, type: 3}

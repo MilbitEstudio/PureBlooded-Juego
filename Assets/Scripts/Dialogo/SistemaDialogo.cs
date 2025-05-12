@@ -7,19 +7,18 @@ public class SistemaDialogo : MonoBehaviour
     [Header("Configuración")]
     public TextMeshProUGUI textoDialogo;
     public float velocidadTipiado = 0.05f;
-    public DialogueSO[] dialogos;  // Array de diálogos
-    private string[] lineas;       // Guardar las líneas del diálogo actual
+    public DialogueSO[] dialogos;
+    public AudioSource audioSource;
+
+    [Header("Debug/Visualización actual")]
+    public string[] lineas;
+    public AudioClip[] clips;
+
     public int indiceLinea = 0;
-    public int indiceDialogo = 0; // Índice para controlar el diálogo actual
+    public int indiceDialogo = 0;
     public bool escribiendo = false;
     public Coroutine rutinaTipiado;
     public bool iniciado = false;
-
-    void Start()
-    {
-
-    }
-
 
     void Update()
     {
@@ -32,6 +31,7 @@ public class SistemaDialogo : MonoBehaviour
                 StopCoroutine(rutinaTipiado);
                 textoDialogo.text = lineas[indiceLinea];
                 escribiendo = false;
+                audioSource.Stop(); // Detiene el audio actual si se interrumpe el tipiado
             }
             else
             {
@@ -42,7 +42,6 @@ public class SistemaDialogo : MonoBehaviour
                 }
                 else
                 {
-                    // Si hay más diálogos, se carga el siguiente
                     if (indiceDialogo + 1 < dialogos.Length)
                     {
                         indiceDialogo++;
@@ -50,22 +49,23 @@ public class SistemaDialogo : MonoBehaviour
                     }
                     else
                     {
-                        // Si no hay más diálogos, finalizar
                         textoDialogo.text = "";
                         iniciado = false;
                         indiceLinea = 0;
+                        audioSource.Stop();
                     }
                 }
             }
         }
     }
 
-    // Iniciar el diálogo con el DialogueSO seleccionado
     public void IniciarDialogo(DialogueSO dialogo)
     {
         if (dialogo == null || dialogo.Lines.Length == 0) return;
 
-        lineas = dialogo.Lines;  // Asigna las líneas del diálogo actual
+        lineas = dialogo.Lines;
+        clips = dialogo.Clips;
+
         indiceLinea = 0;
         iniciado = true;
         textoDialogo.gameObject.SetActive(true);
@@ -74,6 +74,14 @@ public class SistemaDialogo : MonoBehaviour
 
     void MostrarSiguienteLinea()
     {
+        if (clips != null &&
+            indiceLinea < clips.Length &&
+            clips[indiceLinea] != null)
+        {
+            audioSource.clip = clips[indiceLinea];
+            audioSource.Play();
+        }
+
         rutinaTipiado = StartCoroutine(TipiarLinea(lineas[indiceLinea]));
     }
 
@@ -89,5 +97,3 @@ public class SistemaDialogo : MonoBehaviour
         escribiendo = false;
     }
 }
-
-
