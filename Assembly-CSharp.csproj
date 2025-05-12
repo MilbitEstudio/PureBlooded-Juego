@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Inventory\InventoryItem.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAnimatorController.cs" />
     <Compile Include="Assets\Scripts\Items\ItemStats.cs" />
+    <Compile Include="Assets\Modelos\Vendedor\VendedorHabla.cs" />
     <Compile Include="Assets\Scripts\Menu Principal\idiomasManager\ControladorDeidiomas.cs" />
     <Compile Include="Assets\Scripts\DataManager.cs" />
     <Compile Include="Assets\Modelos\Player\Animator\Animacion_Player.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets\Scripts\Player\Interactuar\Objetos\LevantarObjetos.cs" />
     <Compile Include="Assets\Scripts\Player\Interactuar\Puerta\Puerta.cs" />
     <Compile Include="Assets\Scripts\PlayerStatsSave.cs" />
+    <Compile Include="Assets\Modelos\Amigo\DejarStella.cs" />
     <Compile Include="Assets\Scripts\Friend\FriendController.cs" />
     <Compile Include="Assets\Scripts\Menu Principal\FN_PLAYERTESTFINAL\FnPlayerTest.cs" />
     <Compile Include="Assets\Scripts\Menu Principal\Options\ActivarDesactivarOpciones.cs" />
@@ -107,6 +109,7 @@
     <Compile Include="Assets\Scripts\Items\Nota.cs" />
     <Compile Include="Assets\Scripts\Escena creditos inicio\RoadMovement.cs" />
     <Compile Include="Assets\Scripts\Player\Interactuar\Interactuar.cs" />
+    <Compile Include="Assets\Scripts\Dialogo\SistemaDialogo.cs" />
     <Compile Include="Assets\Scripts\Player\Estress\Sistema_Miedo.cs" />
     <Compile Include="Assets\MageC\_Scripts\PlayerAnimationManager.cs" />
     <Compile Include="Assets\Scripts\CanvasINICIOJUEGO\CambiarImagenBoton.cs" />
@@ -115,6 +118,7 @@
     <Compile Include="Assets\Scripts\CanvasINICIOJUEGO\PortadaCanvas.cs" />
     <Compile Include="Assets\MageC\_Scripts\ControlMouseToggle\ControlMouseToggle.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\ItemSO.cs" />
+    <Compile Include="Assets\Modelos\Amigo\Seguir_Player.cs" />
     <Compile Include="Assets\Scripts\Dialogues\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\Menu Principal\ManagerButtons\Datos\CargarDatos.cs" />
     <Compile Include="Assets\Scripts\Menu Principal\DatosJuego.cs" />
@@ -128,6 +132,8 @@
     <Compile Include="Assets\Scripts\Interfaces\IPickable.cs" />
     <Compile Include="Assets\NPCS\NPC Chico\NewMonoBehaviourScript.cs" />
     <Compile Include="Assets\MageC\_Scripts\ColliderManager.cs" />
+    <Compile Include="Assets\Modelos\Player\IK\IK_Linterna.cs" />
+    <Compile Include="Assets\Modelos\Player\Sistema_Charla\Charla.cs" />
     <Compile Include="Assets\RECUPERADO-PROYECTO ANTIGUO\PSXShaderKit\Demo\PSXExample_CameraMovement.cs" />
     <Compile Include="Assets\Scripts\SM_PlayerPick.cs" />
   </ItemGroup>
