@@ -18,7 +18,7 @@ public class AudioPorDistancia : MonoBehaviour
         distanciaInicial = Vector3.Distance(origen.position, objetivo.position);
     }
 
-    void Update()
+    void Hablar()
     {
         if (audioSource.isPlaying || indiceActual >= audios.Length)
             return;
@@ -33,5 +33,11 @@ public class AudioPorDistancia : MonoBehaviour
             audioSource.Play();
             indiceActual++;
         }
+
+    }
+
+    void Update()
+    {
+
     }
 }
