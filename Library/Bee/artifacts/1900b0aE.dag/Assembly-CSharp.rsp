@@ -127,6 +127,8 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
+-define:MAPMAGIC2
+-define:MM_NATIVE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
@@ -372,6 +374,10 @@
 -r:"Library/PackageCache/com.unity.nuget.mono-cecil/Mono.Cecil.dll"
 -r:"Library/PackageCache/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll"
 -r:"Library/PackageCache/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Den.Tools.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Den.Tools.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/MapMagic.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/MapMagic.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PPv2URPConverters.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Addressables.Editor.ref.dll"
@@ -451,6 +457,9 @@
 "Assets/MageC/_Scripts/PlayerHealthManager.cs"
 "Assets/MageC/_Scripts/PlayerMovementManager.cs"
 "Assets/MageC/_Scripts/RotationBehaviour.cs"
+"Assets/MapMagic/Compatibility/CTS/CTSOutput.cs"
+"Assets/MapMagic/Compatibility/MegaSplat/MegaSplatOutput.cs"
+"Assets/MapMagic/Compatibility/RTP/RTPOutput.cs"
 "Assets/Mer/Scripts/PlayerController.cs"
 "Assets/Modelos/Player/Animator/Animacion_Player.cs"
 "Assets/NPCS/NPC Chico/NewMonoBehaviourScript.cs"
