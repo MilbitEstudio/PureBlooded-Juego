@@ -9,13 +9,11 @@ public class Historia_Charla : MonoBehaviour
     public Seguir_Player Amigo;
     public float VelocidadAmigo;
     public bool hablando = false;
-    public GameObject LugarCharla;
     public GameObject Camara1;
     public GameObject Camara2;
     public GameObject PlayerPrimeraPersona;
     public GameObject Player3ra;
     public PlayerMovementManager controller;
-    public Seguir_Player agent;
 
     //Puntos de Charla Ubicados isTrigger
     public GameObject[] PuntoCharla;
@@ -49,7 +47,7 @@ public class Historia_Charla : MonoBehaviour
             Camara2.SetActive(true);
             Player3ra.SetActive(true);
             controller.enabled = false;
-            agent.posicionRelativaLateral = 2;
+            Amigo.posicionRelativaLateral = 2;
         }
 
         // Si el diálogo terminó, preparamos el siguiente
@@ -62,7 +60,7 @@ public class Historia_Charla : MonoBehaviour
             Camara2.SetActive(false);
             Player3ra.SetActive(false);
             controller.enabled = true;
-            agent.posicionRelativaLateral = -2;
+            Amigo.posicionRelativaLateral = -2;
 
             charla++;
             hablando = false;
