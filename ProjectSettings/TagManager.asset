@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ConversacionSorpresa
   - PuedeHablar
+  - Ayrton
   layers:
   - Default
   - TransparentFX
